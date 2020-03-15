@@ -1,0 +1,1212 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_6eb1037e69824c03a6fb48be014eb792 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_6eb1037e69824c03a6fb48be014eb792" ></div>
+        
+</body>
+<script>    
+    
+            var map_6eb1037e69824c03a6fb48be014eb792 = L.map(
+                "map_6eb1037e69824c03a6fb48be014eb792",
+                {
+                    center: [-35.675148, -71.5429688],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 4.5,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_8d3af9267fa44bf0b2432ae201c14ecc = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_6eb1037e69824c03a6fb48be014eb792);
+        
+    
+            var marker_cluster_21e8fe58789e40d2935dd934f9456622 = L.markerClusterGroup(
+                {}
+            );
+            map_6eb1037e69824c03a6fb48be014eb792.addLayer(marker_cluster_21e8fe58789e40d2935dd934f9456622);
+        
+    
+            var marker_85c1ef9e68f7482380eeb114801c56fa = L.marker(
+                [-22.4558642, -68.9274581],
+                {}
+            ).addTo(marker_cluster_21e8fe58789e40d2935dd934f9456622);
+        
+    
+        var popup_e35797226d68425985d2e616c7dfc3b8 = L.popup({"maxWidth": 90});
+
+        
+            var html_b19ac7a75ac2406298712253f6275d9a = $(`<div id="html_b19ac7a75ac2406298712253f6275d9a" style="width: 100.0%; height: 100.0%;">Edad: 58 Femenino  (Hospital Carlos Cisternas Calama)</div>`)[0];
+            popup_e35797226d68425985d2e616c7dfc3b8.setContent(html_b19ac7a75ac2406298712253f6275d9a);
+        
+
+        marker_85c1ef9e68f7482380eeb114801c56fa.bindPopup(popup_e35797226d68425985d2e616c7dfc3b8)
+        ;
+
+        
+    
+    
+            var marker_e3b46d93529c4e46993db90e4c31ca0e = L.marker(
+                [-22.4558642, -68.9274581],
+                {}
+            ).addTo(marker_cluster_21e8fe58789e40d2935dd934f9456622);
+        
+    
+        var popup_006b20c68e3545e985fffe60ec7ab58e = L.popup({"maxWidth": 90});
+
+        
+            var html_cd0a1d282e684febb56a4a750e8db9f8 = $(`<div id="html_cd0a1d282e684febb56a4a750e8db9f8" style="width: 100.0%; height: 100.0%;">Edad: 63 Masculino  (Hospital Carlos Cisternas Calama)</div>`)[0];
+            popup_006b20c68e3545e985fffe60ec7ab58e.setContent(html_cd0a1d282e684febb56a4a750e8db9f8);
+        
+
+        marker_e3b46d93529c4e46993db90e4c31ca0e.bindPopup(popup_006b20c68e3545e985fffe60ec7ab58e)
+        ;
+
+        
+    
+    
+            var marker_f76dc9b80ec2418baa975787e1da7583 = L.marker(
+                [-26.385295, -70.0477573],
+                {}
+            ).addTo(marker_cluster_21e8fe58789e40d2935dd934f9456622);
+        
+    
+        var popup_db9a340f64a84b8f8b01e59cfad1aae4 = L.popup({"maxWidth": 90});
+
+        
+            var html_a734efcfdb5440298c7a67416152c6b4 = $(`<div id="html_a734efcfdb5440298c7a67416152c6b4" style="width: 100.0%; height: 100.0%;">Edad: 50 Masculino  (Hospital de Copiapó)</div>`)[0];
+            popup_db9a340f64a84b8f8b01e59cfad1aae4.setContent(html_a734efcfdb5440298c7a67416152c6b4);
+        
+
+        marker_f76dc9b80ec2418baa975787e1da7583.bindPopup(popup_db9a340f64a84b8f8b01e59cfad1aae4)
+        ;
+
+        
+    
+    
+            var marker_bb77a3eb7c17429d862cfea5e962249a = L.marker(
+                [-33.4354421, -70.6766162],
+                {}
+            ).addTo(marker_cluster_21e8fe58789e40d2935dd934f9456622);
+        
+    
+        var popup_997455419e3c45dc91de5db08c33144d = L.popup({"maxWidth": 90});
+
+        
+            var html_91b436e4f54c4434895f76dfc2e453b1 = $(`<div id="html_91b436e4f54c4434895f76dfc2e453b1" style="width: 100.0%; height: 100.0%;">Edad: 54 Femenino  (Clínica Alemana)</div>`)[0];
+            popup_997455419e3c45dc91de5db08c33144d.setContent(html_91b436e4f54c4434895f76dfc2e453b1);
+        
+
+        marker_bb77a3eb7c17429d862cfea5e962249a.bindPopup(popup_997455419e3c45dc91de5db08c33144d)
+        ;
+
+        
+    
+    
+            var marker_5a08db6457534b1f85b8bad3bfcc1d97 = L.marker(
+                [-33.4354421, -70.6766162],
+                {}
+            ).addTo(marker_cluster_21e8fe58789e40d2935dd934f9456622);
+        
+    
+        var popup_deb6c2aee1e8471da9d1c56b5bf992cd = L.popup({"maxWidth": 90});
+
+        
+            var html_fd751ed9339e4e5cae258df39c580d74 = $(`<div id="html_fd751ed9339e4e5cae258df39c580d74" style="width: 100.0%; height: 100.0%;">Edad: 40 Femenino  (Clínica Santa María)</div>`)[0];
+            popup_deb6c2aee1e8471da9d1c56b5bf992cd.setContent(html_fd751ed9339e4e5cae258df39c580d74);
+        
+
+        marker_5a08db6457534b1f85b8bad3bfcc1d97.bindPopup(popup_deb6c2aee1e8471da9d1c56b5bf992cd)
+        ;
+
+        
+    
+    
+            var marker_55f6ac5a83c047e094ead3e2e89f2e77 = L.marker(
+                [-33.4354421, -70.6766162],
+                {}
+            ).addTo(marker_cluster_21e8fe58789e40d2935dd934f9456622);
+        
+    
+        var popup_2bb631b54c1e49e7a27a4eeaf9b3d568 = L.popup({"maxWidth": 90});
+
+        
+            var html_40537504c96d4b92b8f77a1f7241b78b = $(`<div id="html_40537504c96d4b92b8f77a1f7241b78b" style="width: 100.0%; height: 100.0%;">Edad: 58 Masculino  (Clínica Alemana)</div>`)[0];
+            popup_2bb631b54c1e49e7a27a4eeaf9b3d568.setContent(html_40537504c96d4b92b8f77a1f7241b78b);
+        
+
+        marker_55f6ac5a83c047e094ead3e2e89f2e77.bindPopup(popup_2bb631b54c1e49e7a27a4eeaf9b3d568)
+        ;
+
+        
+    
+    
+            var marker_84f0cc9e5bf748808a0fffac78165225 = L.marker(
+                [-33.4354421, -70.6766162],
+                {}
+            ).addTo(marker_cluster_21e8fe58789e40d2935dd934f9456622);
+        
+    
+        var popup_2e18b5437bb84156b725961937258c9c = L.popup({"maxWidth": 90});
+
+        
+            var html_82991d6c35ca440aaf10460119e89220 = $(`<div id="html_82991d6c35ca440aaf10460119e89220" style="width: 100.0%; height: 100.0%;">Edad: 17 Masculino  (Clínica Alemana)</div>`)[0];
+            popup_2e18b5437bb84156b725961937258c9c.setContent(html_82991d6c35ca440aaf10460119e89220);
+        
+
+        marker_84f0cc9e5bf748808a0fffac78165225.bindPopup(popup_2e18b5437bb84156b725961937258c9c)
+        ;
+
+        
+    
+    
+            var marker_aea0fd926fbd4652863201034d73e136 = L.marker(
+                [-33.4354421, -70.6766162],
+                {}
+            ).addTo(marker_cluster_21e8fe58789e40d2935dd934f9456622);
+        
+    
+        var popup_57d8a42c3ed249e3964d2aef573ae012 = L.popup({"maxWidth": 90});
+
+        
+            var html_42972a25f9e6463396dd2e17a8d43a77 = $(`<div id="html_42972a25f9e6463396dd2e17a8d43a77" style="width: 100.0%; height: 100.0%;">Edad: 83 Femenino  (Clínica Las Condes)</div>`)[0];
+            popup_57d8a42c3ed249e3964d2aef573ae012.setContent(html_42972a25f9e6463396dd2e17a8d43a77);
+        
+
+        marker_aea0fd926fbd4652863201034d73e136.bindPopup(popup_57d8a42c3ed249e3964d2aef573ae012)
+        ;
+
+        
+    
+    
+            var marker_49dd9d21f70b437d8fe105a4c21c426d = L.marker(
+                [-33.4354421, -70.6766162],
+                {}
+            ).addTo(marker_cluster_21e8fe58789e40d2935dd934f9456622);
+        
+    
+        var popup_4a95287e729243b299879395621baf63 = L.popup({"maxWidth": 90});
+
+        
+            var html_94200bd69b1644879e25aafaaafff758 = $(`<div id="html_94200bd69b1644879e25aafaaafff758" style="width: 100.0%; height: 100.0%;">Edad: 14 Masculino  (Clínica Alemana)</div>`)[0];
+            popup_4a95287e729243b299879395621baf63.setContent(html_94200bd69b1644879e25aafaaafff758);
+        
+
+        marker_49dd9d21f70b437d8fe105a4c21c426d.bindPopup(popup_4a95287e729243b299879395621baf63)
+        ;
+
+        
+    
+    
+            var marker_40c50940aa02451796dabf15fab9d7f5 = L.marker(
+                [-33.4354421, -70.6766162],
+                {}
+            ).addTo(marker_cluster_21e8fe58789e40d2935dd934f9456622);
+        
+    
+        var popup_5052551073ba499690b325b98ca7f7e0 = L.popup({"maxWidth": 90});
+
+        
+            var html_08bf756f7e1744429fb74793be91feff = $(`<div id="html_08bf756f7e1744429fb74793be91feff" style="width: 100.0%; height: 100.0%;">Edad: 42 Masculino  (Clínica U. de Los Andes)</div>`)[0];
+            popup_5052551073ba499690b325b98ca7f7e0.setContent(html_08bf756f7e1744429fb74793be91feff);
+        
+
+        marker_40c50940aa02451796dabf15fab9d7f5.bindPopup(popup_5052551073ba499690b325b98ca7f7e0)
+        ;
+
+        
+    
+    
+            var marker_f6709874fb7d4da289589a5acedb03b6 = L.marker(
+                [-33.4354421, -70.6766162],
+                {}
+            ).addTo(marker_cluster_21e8fe58789e40d2935dd934f9456622);
+        
+    
+        var popup_b9305724274c4b5390d55c831aed4aaf = L.popup({"maxWidth": 90});
+
+        
+            var html_4685f1d7c8624c5c9a7e6034d4191a64 = $(`<div id="html_4685f1d7c8624c5c9a7e6034d4191a64" style="width: 100.0%; height: 100.0%;">Edad: 40 Masculino  (Clínica U. de Los Andes)</div>`)[0];
+            popup_b9305724274c4b5390d55c831aed4aaf.setContent(html_4685f1d7c8624c5c9a7e6034d4191a64);
+        
+
+        marker_f6709874fb7d4da289589a5acedb03b6.bindPopup(popup_b9305724274c4b5390d55c831aed4aaf)
+        ;
+
+        
+    
+    
+            var marker_d929f635a196486a8c7e5a8136754c54 = L.marker(
+                [-33.4354421, -70.6766162],
+                {}
+            ).addTo(marker_cluster_21e8fe58789e40d2935dd934f9456622);
+        
+    
+        var popup_d2fb2a7353a54b42ba0ccc6ea2ab62f0 = L.popup({"maxWidth": 90});
+
+        
+            var html_b5dda4d56c4c4573a2709db86153ebdf = $(`<div id="html_b5dda4d56c4c4573a2709db86153ebdf" style="width: 100.0%; height: 100.0%;">Edad: 31 Femenino  (Clínica Santa María)</div>`)[0];
+            popup_d2fb2a7353a54b42ba0ccc6ea2ab62f0.setContent(html_b5dda4d56c4c4573a2709db86153ebdf);
+        
+
+        marker_d929f635a196486a8c7e5a8136754c54.bindPopup(popup_d2fb2a7353a54b42ba0ccc6ea2ab62f0)
+        ;
+
+        
+    
+    
+            var marker_66978fbb82d14b31b9a72669c488916a = L.marker(
+                [-33.4354421, -70.6766162],
+                {}
+            ).addTo(marker_cluster_21e8fe58789e40d2935dd934f9456622);
+        
+    
+        var popup_9b45db359a384913b9f4a3f3d76f4d59 = L.popup({"maxWidth": 90});
+
+        
+            var html_5c3ddd941b7d45eca8fccbd415cb27cb = $(`<div id="html_5c3ddd941b7d45eca8fccbd415cb27cb" style="width: 100.0%; height: 100.0%;">Edad: 32 Femenino  (Clínica Alemana)</div>`)[0];
+            popup_9b45db359a384913b9f4a3f3d76f4d59.setContent(html_5c3ddd941b7d45eca8fccbd415cb27cb);
+        
+
+        marker_66978fbb82d14b31b9a72669c488916a.bindPopup(popup_9b45db359a384913b9f4a3f3d76f4d59)
+        ;
+
+        
+    
+    
+            var marker_a3e019d4325949bd8b1b5ee494e26f9d = L.marker(
+                [-33.4354421, -70.6766162],
+                {}
+            ).addTo(marker_cluster_21e8fe58789e40d2935dd934f9456622);
+        
+    
+        var popup_76b28fc2b17748e6a97a80c5526145a2 = L.popup({"maxWidth": 90});
+
+        
+            var html_aee49e60df2b4c00ad90bba575c00c17 = $(`<div id="html_aee49e60df2b4c00ad90bba575c00c17" style="width: 100.0%; height: 100.0%;">Edad: 58 Femenino  (Clínica Santa María)</div>`)[0];
+            popup_76b28fc2b17748e6a97a80c5526145a2.setContent(html_aee49e60df2b4c00ad90bba575c00c17);
+        
+
+        marker_a3e019d4325949bd8b1b5ee494e26f9d.bindPopup(popup_76b28fc2b17748e6a97a80c5526145a2)
+        ;
+
+        
+    
+    
+            var marker_df134d6c3f104cd385712b432a0a7bd5 = L.marker(
+                [-33.4354421, -70.6766162],
+                {}
+            ).addTo(marker_cluster_21e8fe58789e40d2935dd934f9456622);
+        
+    
+        var popup_d43adacdeaf147a9ab9487272b41a3e0 = L.popup({"maxWidth": 90});
+
+        
+            var html_df82cc9efbda47578f8530fc70303123 = $(`<div id="html_df82cc9efbda47578f8530fc70303123" style="width: 100.0%; height: 100.0%;">Edad: 48 Femenino  (Clínica Alemana)</div>`)[0];
+            popup_d43adacdeaf147a9ab9487272b41a3e0.setContent(html_df82cc9efbda47578f8530fc70303123);
+        
+
+        marker_df134d6c3f104cd385712b432a0a7bd5.bindPopup(popup_d43adacdeaf147a9ab9487272b41a3e0)
+        ;
+
+        
+    
+    
+            var marker_b2d47868945d4fed8ece425bc0480548 = L.marker(
+                [-33.4354421, -70.6766162],
+                {}
+            ).addTo(marker_cluster_21e8fe58789e40d2935dd934f9456622);
+        
+    
+        var popup_dc5f469db2f94df688967f3af48e417d = L.popup({"maxWidth": 90});
+
+        
+            var html_c76e113ffedd42498b27e054ad3ff83a = $(`<div id="html_c76e113ffedd42498b27e054ad3ff83a" style="width: 100.0%; height: 100.0%;">Edad: 23 Femenino  (Hospital de Carabineros)</div>`)[0];
+            popup_dc5f469db2f94df688967f3af48e417d.setContent(html_c76e113ffedd42498b27e054ad3ff83a);
+        
+
+        marker_b2d47868945d4fed8ece425bc0480548.bindPopup(popup_dc5f469db2f94df688967f3af48e417d)
+        ;
+
+        
+    
+    
+            var marker_7852d89186d343ef9193a0ab019bc5fa = L.marker(
+                [-33.4354421, -70.6766162],
+                {}
+            ).addTo(marker_cluster_21e8fe58789e40d2935dd934f9456622);
+        
+    
+        var popup_a1541be0c7bb43368599cace8b1904d8 = L.popup({"maxWidth": 90});
+
+        
+            var html_0bd9543616f24d47b14b304cbc394776 = $(`<div id="html_0bd9543616f24d47b14b304cbc394776" style="width: 100.0%; height: 100.0%;">Edad: 26 Masculino  (Red de Salud UC-Christus San Carlos de Apoquindo)</div>`)[0];
+            popup_a1541be0c7bb43368599cace8b1904d8.setContent(html_0bd9543616f24d47b14b304cbc394776);
+        
+
+        marker_7852d89186d343ef9193a0ab019bc5fa.bindPopup(popup_a1541be0c7bb43368599cace8b1904d8)
+        ;
+
+        
+    
+    
+            var marker_b6e07c1094b548969bf78ef427e872e5 = L.marker(
+                [-33.4354421, -70.6766162],
+                {}
+            ).addTo(marker_cluster_21e8fe58789e40d2935dd934f9456622);
+        
+    
+        var popup_4d85100cbd3a4ab381325e84c7661bab = L.popup({"maxWidth": 90});
+
+        
+            var html_2e0325f0318f408683e66e24cf97d707 = $(`<div id="html_2e0325f0318f408683e66e24cf97d707" style="width: 100.0%; height: 100.0%;">Edad: 46 Femenino  (Clínica Alemana)</div>`)[0];
+            popup_4d85100cbd3a4ab381325e84c7661bab.setContent(html_2e0325f0318f408683e66e24cf97d707);
+        
+
+        marker_b6e07c1094b548969bf78ef427e872e5.bindPopup(popup_4d85100cbd3a4ab381325e84c7661bab)
+        ;
+
+        
+    
+    
+            var marker_76ff927b76464e7098c9976551cb5d0a = L.marker(
+                [-33.4354421, -70.6766162],
+                {}
+            ).addTo(marker_cluster_21e8fe58789e40d2935dd934f9456622);
+        
+    
+        var popup_b2f29397793e4e2d8b4754f763a1dc3b = L.popup({"maxWidth": 90});
+
+        
+            var html_72df69ec1ba64d488315119ecbfab1b7 = $(`<div id="html_72df69ec1ba64d488315119ecbfab1b7" style="width: 100.0%; height: 100.0%;">Edad: 67 Masculino  (Clínica Alemana)</div>`)[0];
+            popup_b2f29397793e4e2d8b4754f763a1dc3b.setContent(html_72df69ec1ba64d488315119ecbfab1b7);
+        
+
+        marker_76ff927b76464e7098c9976551cb5d0a.bindPopup(popup_b2f29397793e4e2d8b4754f763a1dc3b)
+        ;
+
+        
+    
+    
+            var marker_fcfb80cc04d848f0b7bcf73c72d57b6f = L.marker(
+                [-33.4354421, -70.6766162],
+                {}
+            ).addTo(marker_cluster_21e8fe58789e40d2935dd934f9456622);
+        
+    
+        var popup_1eaf9bc1228c4bcdbf4c619ab9c08fef = L.popup({"maxWidth": 90});
+
+        
+            var html_11a8f23451df43cd9550d72a0721cd12 = $(`<div id="html_11a8f23451df43cd9550d72a0721cd12" style="width: 100.0%; height: 100.0%;">Edad: 31 Femenino  (Clínica Alemana)</div>`)[0];
+            popup_1eaf9bc1228c4bcdbf4c619ab9c08fef.setContent(html_11a8f23451df43cd9550d72a0721cd12);
+        
+
+        marker_fcfb80cc04d848f0b7bcf73c72d57b6f.bindPopup(popup_1eaf9bc1228c4bcdbf4c619ab9c08fef)
+        ;
+
+        
+    
+    
+            var marker_001221a034b1491db14aab2da731f6a8 = L.marker(
+                [-33.4354421, -70.6766162],
+                {}
+            ).addTo(marker_cluster_21e8fe58789e40d2935dd934f9456622);
+        
+    
+        var popup_8d0f92a0d25241b194ebaae72e991e68 = L.popup({"maxWidth": 90});
+
+        
+            var html_77709b16eee14cbeac147261f88a68c7 = $(`<div id="html_77709b16eee14cbeac147261f88a68c7" style="width: 100.0%; height: 100.0%;">Edad: 46 Femenino  (Clínica Alemana)</div>`)[0];
+            popup_8d0f92a0d25241b194ebaae72e991e68.setContent(html_77709b16eee14cbeac147261f88a68c7);
+        
+
+        marker_001221a034b1491db14aab2da731f6a8.bindPopup(popup_8d0f92a0d25241b194ebaae72e991e68)
+        ;
+
+        
+    
+    
+            var marker_fbf04f2f68e4449b8db7025f417858f8 = L.marker(
+                [-33.4354421, -70.6766162],
+                {}
+            ).addTo(marker_cluster_21e8fe58789e40d2935dd934f9456622);
+        
+    
+        var popup_7017882543ba452bb312ee52b44a1017 = L.popup({"maxWidth": 90});
+
+        
+            var html_7bbbaf1bbf3145929930a7dce3ce8688 = $(`<div id="html_7bbbaf1bbf3145929930a7dce3ce8688" style="width: 100.0%; height: 100.0%;">Edad: 23 Masculino  (Clínica Alemana)</div>`)[0];
+            popup_7017882543ba452bb312ee52b44a1017.setContent(html_7bbbaf1bbf3145929930a7dce3ce8688);
+        
+
+        marker_fbf04f2f68e4449b8db7025f417858f8.bindPopup(popup_7017882543ba452bb312ee52b44a1017)
+        ;
+
+        
+    
+    
+            var marker_5dda6a58b9ff481fabfc0a223a5b91b4 = L.marker(
+                [-33.4354421, -70.6766162],
+                {}
+            ).addTo(marker_cluster_21e8fe58789e40d2935dd934f9456622);
+        
+    
+        var popup_f44152a4513f4c839f0a2342a3687d81 = L.popup({"maxWidth": 90});
+
+        
+            var html_91a10822522240b3bfd7900b5e8bffe6 = $(`<div id="html_91a10822522240b3bfd7900b5e8bffe6" style="width: 100.0%; height: 100.0%;">Edad: 34 Femenino  (Clínica Tabancura)</div>`)[0];
+            popup_f44152a4513f4c839f0a2342a3687d81.setContent(html_91a10822522240b3bfd7900b5e8bffe6);
+        
+
+        marker_5dda6a58b9ff481fabfc0a223a5b91b4.bindPopup(popup_f44152a4513f4c839f0a2342a3687d81)
+        ;
+
+        
+    
+    
+            var marker_118aa288fc0749999ccf5bfb1f12a0c0 = L.marker(
+                [-33.4354421, -70.6766162],
+                {}
+            ).addTo(marker_cluster_21e8fe58789e40d2935dd934f9456622);
+        
+    
+        var popup_fe357b0dcb7c42eb95cd998f39f75dd4 = L.popup({"maxWidth": 90});
+
+        
+            var html_630d6892b7d54919ba1c5b08df2e256c = $(`<div id="html_630d6892b7d54919ba1c5b08df2e256c" style="width: 100.0%; height: 100.0%;">Edad: 29 Femenino  (Clínica Las Condes)</div>`)[0];
+            popup_fe357b0dcb7c42eb95cd998f39f75dd4.setContent(html_630d6892b7d54919ba1c5b08df2e256c);
+        
+
+        marker_118aa288fc0749999ccf5bfb1f12a0c0.bindPopup(popup_fe357b0dcb7c42eb95cd998f39f75dd4)
+        ;
+
+        
+    
+    
+            var marker_4d518b75284b48b48b9710e5ac425622 = L.marker(
+                [-33.4354421, -70.6766162],
+                {}
+            ).addTo(marker_cluster_21e8fe58789e40d2935dd934f9456622);
+        
+    
+        var popup_0adb2b36851746a3a70c54b147d4023c = L.popup({"maxWidth": 90});
+
+        
+            var html_84779ae0461e42db89035f075b834e6d = $(`<div id="html_84779ae0461e42db89035f075b834e6d" style="width: 100.0%; height: 100.0%;">Edad: 28 Femenino  (Clínica Las Condes)</div>`)[0];
+            popup_0adb2b36851746a3a70c54b147d4023c.setContent(html_84779ae0461e42db89035f075b834e6d);
+        
+
+        marker_4d518b75284b48b48b9710e5ac425622.bindPopup(popup_0adb2b36851746a3a70c54b147d4023c)
+        ;
+
+        
+    
+    
+            var marker_f2c50db3bd9e42bc8e3a22e47d2584a8 = L.marker(
+                [-33.4354421, -70.6766162],
+                {}
+            ).addTo(marker_cluster_21e8fe58789e40d2935dd934f9456622);
+        
+    
+        var popup_7f06428885854fb5b977a2d2d44caecb = L.popup({"maxWidth": 90});
+
+        
+            var html_5fbfaa02294c4ea087b90f56627645d8 = $(`<div id="html_5fbfaa02294c4ea087b90f56627645d8" style="width: 100.0%; height: 100.0%;">Edad: 21 Femenino  (Laboratorio Integramédica)</div>`)[0];
+            popup_7f06428885854fb5b977a2d2d44caecb.setContent(html_5fbfaa02294c4ea087b90f56627645d8);
+        
+
+        marker_f2c50db3bd9e42bc8e3a22e47d2584a8.bindPopup(popup_7f06428885854fb5b977a2d2d44caecb)
+        ;
+
+        
+    
+    
+            var marker_bfba97d65f2f49b69df884fa9fef90c6 = L.marker(
+                [-33.4354421, -70.6766162],
+                {}
+            ).addTo(marker_cluster_21e8fe58789e40d2935dd934f9456622);
+        
+    
+        var popup_88c430e9a6f54514992b55be5b107b91 = L.popup({"maxWidth": 90});
+
+        
+            var html_8f51dbdad8b94366875fcf6f4a379a58 = $(`<div id="html_8f51dbdad8b94366875fcf6f4a379a58" style="width: 100.0%; height: 100.0%;">Edad: 35 Masculino  (Clínica Red Salud Santiago)</div>`)[0];
+            popup_88c430e9a6f54514992b55be5b107b91.setContent(html_8f51dbdad8b94366875fcf6f4a379a58);
+        
+
+        marker_bfba97d65f2f49b69df884fa9fef90c6.bindPopup(popup_88c430e9a6f54514992b55be5b107b91)
+        ;
+
+        
+    
+    
+            var marker_d281340b5cb14361be0e0889bc151e6c = L.marker(
+                [-33.4354421, -70.6766162],
+                {}
+            ).addTo(marker_cluster_21e8fe58789e40d2935dd934f9456622);
+        
+    
+        var popup_7d4fd8dbb9b142dea4b5a67b41b49ee4 = L.popup({"maxWidth": 90});
+
+        
+            var html_d256ff1de71344f59df9aee671e4e8c2 = $(`<div id="html_d256ff1de71344f59df9aee671e4e8c2" style="width: 100.0%; height: 100.0%;">Edad: 50 Femenino  (Clínica Tabancura)</div>`)[0];
+            popup_7d4fd8dbb9b142dea4b5a67b41b49ee4.setContent(html_d256ff1de71344f59df9aee671e4e8c2);
+        
+
+        marker_d281340b5cb14361be0e0889bc151e6c.bindPopup(popup_7d4fd8dbb9b142dea4b5a67b41b49ee4)
+        ;
+
+        
+    
+    
+            var marker_83b4e87e33b442ef9adb471ad9402f8c = L.marker(
+                [-33.4354421, -70.6766162],
+                {}
+            ).addTo(marker_cluster_21e8fe58789e40d2935dd934f9456622);
+        
+    
+        var popup_5200384c95c041ab8073ada0add1b4f8 = L.popup({"maxWidth": 90});
+
+        
+            var html_efc944de6f00442c88c2d1ecf7602cf8 = $(`<div id="html_efc944de6f00442c88c2d1ecf7602cf8" style="width: 100.0%; height: 100.0%;">Edad: 31 Masculino  (Clínica U. de Los Andes)</div>`)[0];
+            popup_5200384c95c041ab8073ada0add1b4f8.setContent(html_efc944de6f00442c88c2d1ecf7602cf8);
+        
+
+        marker_83b4e87e33b442ef9adb471ad9402f8c.bindPopup(popup_5200384c95c041ab8073ada0add1b4f8)
+        ;
+
+        
+    
+    
+            var marker_fc3f65633cc64f98b7f9e62a6e6b0735 = L.marker(
+                [-33.4354421, -70.6766162],
+                {}
+            ).addTo(marker_cluster_21e8fe58789e40d2935dd934f9456622);
+        
+    
+        var popup_69acc5dc3f86409ba7c47dc1f87931e5 = L.popup({"maxWidth": 90});
+
+        
+            var html_ee8e5aea84784126b938a96305e4c868 = $(`<div id="html_ee8e5aea84784126b938a96305e4c868" style="width: 100.0%; height: 100.0%;">Edad: 47 Masculino  (Clínica Indisa)</div>`)[0];
+            popup_69acc5dc3f86409ba7c47dc1f87931e5.setContent(html_ee8e5aea84784126b938a96305e4c868);
+        
+
+        marker_fc3f65633cc64f98b7f9e62a6e6b0735.bindPopup(popup_69acc5dc3f86409ba7c47dc1f87931e5)
+        ;
+
+        
+    
+    
+            var marker_f2504e74a7e744c8907da178ae0d329d = L.marker(
+                [-33.4354421, -70.6766162],
+                {}
+            ).addTo(marker_cluster_21e8fe58789e40d2935dd934f9456622);
+        
+    
+        var popup_c751478526c140c0ae7ba0b3bf3e53fa = L.popup({"maxWidth": 90});
+
+        
+            var html_5b10dd2167a84b9f810ac59688723a2b = $(`<div id="html_5b10dd2167a84b9f810ac59688723a2b" style="width: 100.0%; height: 100.0%;">Edad: 39 Masculino  (Red de Salud UC-Christus San Carlos de Apoquindo)</div>`)[0];
+            popup_c751478526c140c0ae7ba0b3bf3e53fa.setContent(html_5b10dd2167a84b9f810ac59688723a2b);
+        
+
+        marker_f2504e74a7e744c8907da178ae0d329d.bindPopup(popup_c751478526c140c0ae7ba0b3bf3e53fa)
+        ;
+
+        
+    
+    
+            var marker_0b6062660a4845c1ac8f253202a5dc8c = L.marker(
+                [-33.4354421, -70.6766162],
+                {}
+            ).addTo(marker_cluster_21e8fe58789e40d2935dd934f9456622);
+        
+    
+        var popup_5fdfb6e7da344cb58ac10219bdf3f7ad = L.popup({"maxWidth": 90});
+
+        
+            var html_b35a70051f8e438f82a130f6e17941e8 = $(`<div id="html_b35a70051f8e438f82a130f6e17941e8" style="width: 100.0%; height: 100.0%;">Edad: 37 Femenino  (Laboratorio Integramédica)</div>`)[0];
+            popup_5fdfb6e7da344cb58ac10219bdf3f7ad.setContent(html_b35a70051f8e438f82a130f6e17941e8);
+        
+
+        marker_0b6062660a4845c1ac8f253202a5dc8c.bindPopup(popup_5fdfb6e7da344cb58ac10219bdf3f7ad)
+        ;
+
+        
+    
+    
+            var marker_d02c2922753a457a9106b912edd88bd8 = L.marker(
+                [-33.4354421, -70.6766162],
+                {}
+            ).addTo(marker_cluster_21e8fe58789e40d2935dd934f9456622);
+        
+    
+        var popup_ba6398d7bfb04286bb6d9f71283dd536 = L.popup({"maxWidth": 90});
+
+        
+            var html_bbba9c4c487b49ee958c9c4f28773d39 = $(`<div id="html_bbba9c4c487b49ee958c9c4f28773d39" style="width: 100.0%; height: 100.0%;">Edad: 28 Masculino  (Pontificia Universidad Católica)</div>`)[0];
+            popup_ba6398d7bfb04286bb6d9f71283dd536.setContent(html_bbba9c4c487b49ee958c9c4f28773d39);
+        
+
+        marker_d02c2922753a457a9106b912edd88bd8.bindPopup(popup_ba6398d7bfb04286bb6d9f71283dd536)
+        ;
+
+        
+    
+    
+            var marker_d67d52ecb9e64864a2ce45b46812dbbe = L.marker(
+                [-33.4354421, -70.6766162],
+                {}
+            ).addTo(marker_cluster_21e8fe58789e40d2935dd934f9456622);
+        
+    
+        var popup_f2249ba6439041d8945fd1761e6b68a2 = L.popup({"maxWidth": 90});
+
+        
+            var html_4e95d76990194d53b9ca8d5b9066a0f6 = $(`<div id="html_4e95d76990194d53b9ca8d5b9066a0f6" style="width: 100.0%; height: 100.0%;">Edad: 29 Masculino  (Red de Salud UC-Christus San Carlos de Apoquindo)</div>`)[0];
+            popup_f2249ba6439041d8945fd1761e6b68a2.setContent(html_4e95d76990194d53b9ca8d5b9066a0f6);
+        
+
+        marker_d67d52ecb9e64864a2ce45b46812dbbe.bindPopup(popup_f2249ba6439041d8945fd1761e6b68a2)
+        ;
+
+        
+    
+    
+            var marker_10913b8e4c144dafb3ac7c0812d7e666 = L.marker(
+                [-33.4354421, -70.6766162],
+                {}
+            ).addTo(marker_cluster_21e8fe58789e40d2935dd934f9456622);
+        
+    
+        var popup_722dd33366d24eb9bf22454d5f86a26f = L.popup({"maxWidth": 90});
+
+        
+            var html_5013d6a0f5c144058daa9481c43137b7 = $(`<div id="html_5013d6a0f5c144058daa9481c43137b7" style="width: 100.0%; height: 100.0%;">Edad: 28 Masculino  (Clínica U. de Los Andes)</div>`)[0];
+            popup_722dd33366d24eb9bf22454d5f86a26f.setContent(html_5013d6a0f5c144058daa9481c43137b7);
+        
+
+        marker_10913b8e4c144dafb3ac7c0812d7e666.bindPopup(popup_722dd33366d24eb9bf22454d5f86a26f)
+        ;
+
+        
+    
+    
+            var marker_ff61f9f893944ec1bfea5fe3e86957bc = L.marker(
+                [-33.4354421, -70.6766162],
+                {}
+            ).addTo(marker_cluster_21e8fe58789e40d2935dd934f9456622);
+        
+    
+        var popup_0e9db942d6954796b73675c9469c18b5 = L.popup({"maxWidth": 90});
+
+        
+            var html_f19d874b549f4bcb9cf457490222f7f4 = $(`<div id="html_f19d874b549f4bcb9cf457490222f7f4" style="width: 100.0%; height: 100.0%;">Edad: 53 Masculino  (Clínica Indisa)</div>`)[0];
+            popup_0e9db942d6954796b73675c9469c18b5.setContent(html_f19d874b549f4bcb9cf457490222f7f4);
+        
+
+        marker_ff61f9f893944ec1bfea5fe3e86957bc.bindPopup(popup_0e9db942d6954796b73675c9469c18b5)
+        ;
+
+        
+    
+    
+            var marker_226d2b11bbaa47c38ce45e9c6f5ef3e7 = L.marker(
+                [-33.4354421, -70.6766162],
+                {}
+            ).addTo(marker_cluster_21e8fe58789e40d2935dd934f9456622);
+        
+    
+        var popup_e95b6905b6124f9d82de13268cc47065 = L.popup({"maxWidth": 90});
+
+        
+            var html_0143b4265c2f4f95b1fe8e3bb3ac7abd = $(`<div id="html_0143b4265c2f4f95b1fe8e3bb3ac7abd" style="width: 100.0%; height: 100.0%;">Edad: 38 Masculino  (Laboratorio Integramédica)</div>`)[0];
+            popup_e95b6905b6124f9d82de13268cc47065.setContent(html_0143b4265c2f4f95b1fe8e3bb3ac7abd);
+        
+
+        marker_226d2b11bbaa47c38ce45e9c6f5ef3e7.bindPopup(popup_e95b6905b6124f9d82de13268cc47065)
+        ;
+
+        
+    
+    
+            var marker_09cd10f4112e4e56834370351e3ecc08 = L.marker(
+                [-33.4354421, -70.6766162],
+                {}
+            ).addTo(marker_cluster_21e8fe58789e40d2935dd934f9456622);
+        
+    
+        var popup_41f828a6132f4db3b8484b7f361d72b3 = L.popup({"maxWidth": 90});
+
+        
+            var html_5638285331734404a7de9f6a0555e350 = $(`<div id="html_5638285331734404a7de9f6a0555e350" style="width: 100.0%; height: 100.0%;">Edad: 55 Femenino  (Laboratorio Bionet)</div>`)[0];
+            popup_41f828a6132f4db3b8484b7f361d72b3.setContent(html_5638285331734404a7de9f6a0555e350);
+        
+
+        marker_09cd10f4112e4e56834370351e3ecc08.bindPopup(popup_41f828a6132f4db3b8484b7f361d72b3)
+        ;
+
+        
+    
+    
+            var marker_3cf322b07f8a48cc8cf858c3ff5efff7 = L.marker(
+                [-33.4354421, -70.6766162],
+                {}
+            ).addTo(marker_cluster_21e8fe58789e40d2935dd934f9456622);
+        
+    
+        var popup_41927ae123bf460882f35102534fcefa = L.popup({"maxWidth": 90});
+
+        
+            var html_6f11ef9bf5ac4b608d31b6af9e5bc477 = $(`<div id="html_6f11ef9bf5ac4b608d31b6af9e5bc477" style="width: 100.0%; height: 100.0%;">Edad: 51 Femenino  (Laboratorio Integramédica)</div>`)[0];
+            popup_41927ae123bf460882f35102534fcefa.setContent(html_6f11ef9bf5ac4b608d31b6af9e5bc477);
+        
+
+        marker_3cf322b07f8a48cc8cf858c3ff5efff7.bindPopup(popup_41927ae123bf460882f35102534fcefa)
+        ;
+
+        
+    
+    
+            var marker_900313c6786243a28d00ecd9acd787c2 = L.marker(
+                [-33.4354421, -70.6766162],
+                {}
+            ).addTo(marker_cluster_21e8fe58789e40d2935dd934f9456622);
+        
+    
+        var popup_e3b346a2f50d40d28972d716e8229494 = L.popup({"maxWidth": 90});
+
+        
+            var html_d1ff84a5ef644b50b052fbf974c58040 = $(`<div id="html_d1ff84a5ef644b50b052fbf974c58040" style="width: 100.0%; height: 100.0%;">Edad: 23 Femenino  (Clínica Santa María)</div>`)[0];
+            popup_e3b346a2f50d40d28972d716e8229494.setContent(html_d1ff84a5ef644b50b052fbf974c58040);
+        
+
+        marker_900313c6786243a28d00ecd9acd787c2.bindPopup(popup_e3b346a2f50d40d28972d716e8229494)
+        ;
+
+        
+    
+    
+            var marker_c70352bca33e4cb1bebf10ad73e94832 = L.marker(
+                [-33.4354421, -70.6766162],
+                {}
+            ).addTo(marker_cluster_21e8fe58789e40d2935dd934f9456622);
+        
+    
+        var popup_d886985f083b46ba98c73e7c110f0ab8 = L.popup({"maxWidth": 90});
+
+        
+            var html_01c1a7f54a784aa0b054b2f2e3e2514d = $(`<div id="html_01c1a7f54a784aa0b054b2f2e3e2514d" style="width: 100.0%; height: 100.0%;">Edad: 36 Masculino  (Clínica Las Condes)</div>`)[0];
+            popup_d886985f083b46ba98c73e7c110f0ab8.setContent(html_01c1a7f54a784aa0b054b2f2e3e2514d);
+        
+
+        marker_c70352bca33e4cb1bebf10ad73e94832.bindPopup(popup_d886985f083b46ba98c73e7c110f0ab8)
+        ;
+
+        
+    
+    
+            var marker_72789d4da6124fc598adc70af18f2c75 = L.marker(
+                [-33.4354421, -70.6766162],
+                {}
+            ).addTo(marker_cluster_21e8fe58789e40d2935dd934f9456622);
+        
+    
+        var popup_df659b1330784088a1247ab683edc548 = L.popup({"maxWidth": 90});
+
+        
+            var html_f1b5044b5c404f599c526e9fa0a5d62d = $(`<div id="html_f1b5044b5c404f599c526e9fa0a5d62d" style="width: 100.0%; height: 100.0%;">Edad: 58 Femenino  (Clínica Las Condes)</div>`)[0];
+            popup_df659b1330784088a1247ab683edc548.setContent(html_f1b5044b5c404f599c526e9fa0a5d62d);
+        
+
+        marker_72789d4da6124fc598adc70af18f2c75.bindPopup(popup_df659b1330784088a1247ab683edc548)
+        ;
+
+        
+    
+    
+            var marker_1aa821be64cb471e801891f24605e2cb = L.marker(
+                [-36.1313356, -71.8217821],
+                {}
+            ).addTo(marker_cluster_21e8fe58789e40d2935dd934f9456622);
+        
+    
+        var popup_0082bba7a1c54eefa694454fec8d1a10 = L.popup({"maxWidth": 90});
+
+        
+            var html_41e6623eba094397a4f8feb07e8819c0 = $(`<div id="html_41e6623eba094397a4f8feb07e8819c0" style="width: 100.0%; height: 100.0%;">Edad: 33 Masculino  (Hospital de Talca)</div>`)[0];
+            popup_0082bba7a1c54eefa694454fec8d1a10.setContent(html_41e6623eba094397a4f8feb07e8819c0);
+        
+
+        marker_1aa821be64cb471e801891f24605e2cb.bindPopup(popup_0082bba7a1c54eefa694454fec8d1a10)
+        ;
+
+        
+    
+    
+            var marker_f56a19dc821d400b9ec8348404ba7c64 = L.marker(
+                [-36.1313356, -71.8217821],
+                {}
+            ).addTo(marker_cluster_21e8fe58789e40d2935dd934f9456622);
+        
+    
+        var popup_37cab99153f54829a5e5ac8ec2c8f428 = L.popup({"maxWidth": 90});
+
+        
+            var html_2837b71e73ef4e658d1854d7f6f14ab3 = $(`<div id="html_2837b71e73ef4e658d1854d7f6f14ab3" style="width: 100.0%; height: 100.0%;">Edad: 33 Femenino  (Hospital de Talca)</div>`)[0];
+            popup_37cab99153f54829a5e5ac8ec2c8f428.setContent(html_2837b71e73ef4e658d1854d7f6f14ab3);
+        
+
+        marker_f56a19dc821d400b9ec8348404ba7c64.bindPopup(popup_37cab99153f54829a5e5ac8ec2c8f428)
+        ;
+
+        
+    
+    
+            var marker_573cbf8c9a4843feafd4462e60c0d105 = L.marker(
+                [-36.1313356, -71.8217821],
+                {}
+            ).addTo(marker_cluster_21e8fe58789e40d2935dd934f9456622);
+        
+    
+        var popup_e89d3523f34b4a7891b3d3b96b6b50e0 = L.popup({"maxWidth": 90});
+
+        
+            var html_959ac84233794f88a386f20bc2e5c630 = $(`<div id="html_959ac84233794f88a386f20bc2e5c630" style="width: 100.0%; height: 100.0%;">Edad: 39 Masculino  (Hospital de Talca)</div>`)[0];
+            popup_e89d3523f34b4a7891b3d3b96b6b50e0.setContent(html_959ac84233794f88a386f20bc2e5c630);
+        
+
+        marker_573cbf8c9a4843feafd4462e60c0d105.bindPopup(popup_e89d3523f34b4a7891b3d3b96b6b50e0)
+        ;
+
+        
+    
+    
+            var marker_329e522987bf45d8836757f31b6f92d2 = L.marker(
+                [-36.1313356, -71.8217821],
+                {}
+            ).addTo(marker_cluster_21e8fe58789e40d2935dd934f9456622);
+        
+    
+        var popup_3cbaf995043c41ff8f37052dd61d8118 = L.popup({"maxWidth": 90});
+
+        
+            var html_27aa7ccc9a3248d08a84f9dc6ec76ef8 = $(`<div id="html_27aa7ccc9a3248d08a84f9dc6ec76ef8" style="width: 100.0%; height: 100.0%;">Edad: 2 Femenino  (Hospital de Talca)</div>`)[0];
+            popup_3cbaf995043c41ff8f37052dd61d8118.setContent(html_27aa7ccc9a3248d08a84f9dc6ec76ef8);
+        
+
+        marker_329e522987bf45d8836757f31b6f92d2.bindPopup(popup_3cbaf995043c41ff8f37052dd61d8118)
+        ;
+
+        
+    
+    
+            var marker_793e6c535d6a41aaad9093f7ab804f99 = L.marker(
+                [-36.1313356, -71.8217821],
+                {}
+            ).addTo(marker_cluster_21e8fe58789e40d2935dd934f9456622);
+        
+    
+        var popup_851e236539dd4568ac23bcb1c228e2e8 = L.popup({"maxWidth": 90});
+
+        
+            var html_4bbf5fca6aca4e40999c4c76b9f16a07 = $(`<div id="html_4bbf5fca6aca4e40999c4c76b9f16a07" style="width: 100.0%; height: 100.0%;">Edad: 21 Masculino  (Hospital de Talca)</div>`)[0];
+            popup_851e236539dd4568ac23bcb1c228e2e8.setContent(html_4bbf5fca6aca4e40999c4c76b9f16a07);
+        
+
+        marker_793e6c535d6a41aaad9093f7ab804f99.bindPopup(popup_851e236539dd4568ac23bcb1c228e2e8)
+        ;
+
+        
+    
+    
+            var marker_fbd0fcab5f9945cdb0c68c0bdd0ec965 = L.marker(
+                [-36.1313356, -71.8217821],
+                {}
+            ).addTo(marker_cluster_21e8fe58789e40d2935dd934f9456622);
+        
+    
+        var popup_4d800e56de684c48988f35d552b9e051 = L.popup({"maxWidth": 90});
+
+        
+            var html_a6e9249086d846a49a0bf1cf2ced072a = $(`<div id="html_a6e9249086d846a49a0bf1cf2ced072a" style="width: 100.0%; height: 100.0%;">Edad: 24 Femenino  (Hospital de Talca)</div>`)[0];
+            popup_4d800e56de684c48988f35d552b9e051.setContent(html_a6e9249086d846a49a0bf1cf2ced072a);
+        
+
+        marker_fbd0fcab5f9945cdb0c68c0bdd0ec965.bindPopup(popup_4d800e56de684c48988f35d552b9e051)
+        ;
+
+        
+    
+    
+            var marker_1a3a45de652640b3809b71e79dd73bf3 = L.marker(
+                [-36.1313356, -71.8217821],
+                {}
+            ).addTo(marker_cluster_21e8fe58789e40d2935dd934f9456622);
+        
+    
+        var popup_527f64af55e8412ea3ee3df6c91412da = L.popup({"maxWidth": 90});
+
+        
+            var html_f5da245f213a44588244f246e4e4cf4a = $(`<div id="html_f5da245f213a44588244f246e4e4cf4a" style="width: 100.0%; height: 100.0%;">Edad: 29 Masculino  (Hospital de Curicó)</div>`)[0];
+            popup_527f64af55e8412ea3ee3df6c91412da.setContent(html_f5da245f213a44588244f246e4e4cf4a);
+        
+
+        marker_1a3a45de652640b3809b71e79dd73bf3.bindPopup(popup_527f64af55e8412ea3ee3df6c91412da)
+        ;
+
+        
+    
+    
+            var marker_260b7ca82eef46ddaa2eb89eecafc97d = L.marker(
+                [-36.1313356, -71.8217821],
+                {}
+            ).addTo(marker_cluster_21e8fe58789e40d2935dd934f9456622);
+        
+    
+        var popup_0aa67b562ad74f8885a759134bae08fb = L.popup({"maxWidth": 90});
+
+        
+            var html_8ccf6504b63543f98eedc64b62773719 = $(`<div id="html_8ccf6504b63543f98eedc64b62773719" style="width: 100.0%; height: 100.0%;">Edad: 38 Femenino  (Hospital de Talca)</div>`)[0];
+            popup_0aa67b562ad74f8885a759134bae08fb.setContent(html_8ccf6504b63543f98eedc64b62773719);
+        
+
+        marker_260b7ca82eef46ddaa2eb89eecafc97d.bindPopup(popup_0aa67b562ad74f8885a759134bae08fb)
+        ;
+
+        
+    
+    
+            var marker_615d05ee61fc4484b11d5074c6519e5d = L.marker(
+                [-36.1313356, -71.8217821],
+                {}
+            ).addTo(marker_cluster_21e8fe58789e40d2935dd934f9456622);
+        
+    
+        var popup_c239c69622a64edf8b74de37e2bf5307 = L.popup({"maxWidth": 90});
+
+        
+            var html_3aa88fea2aac41b1b33af8839da33268 = $(`<div id="html_3aa88fea2aac41b1b33af8839da33268" style="width: 100.0%; height: 100.0%;">Edad: 53 Masculino  (Hospital de Talca)</div>`)[0];
+            popup_c239c69622a64edf8b74de37e2bf5307.setContent(html_3aa88fea2aac41b1b33af8839da33268);
+        
+
+        marker_615d05ee61fc4484b11d5074c6519e5d.bindPopup(popup_c239c69622a64edf8b74de37e2bf5307)
+        ;
+
+        
+    
+    
+            var marker_25482cb1784f4a6abac00f8229e443ca = L.marker(
+                [-36.2790465, -72.5544152],
+                {}
+            ).addTo(marker_cluster_21e8fe58789e40d2935dd934f9456622);
+        
+    
+        var popup_ad60a534721745728b8cfcb72c4ef937 = L.popup({"maxWidth": 90});
+
+        
+            var html_c2d454e6b5d947b1bc1455a0bdb4bfe4 = $(`<div id="html_c2d454e6b5d947b1bc1455a0bdb4bfe4" style="width: 100.0%; height: 100.0%;">Edad: 29 Masculino  (Clínica de Chillán)</div>`)[0];
+            popup_ad60a534721745728b8cfcb72c4ef937.setContent(html_c2d454e6b5d947b1bc1455a0bdb4bfe4);
+        
+
+        marker_25482cb1784f4a6abac00f8229e443ca.bindPopup(popup_ad60a534721745728b8cfcb72c4ef937)
+        ;
+
+        
+    
+    
+            var marker_f8f3b88e169641299bf7d94e740b5df0 = L.marker(
+                [-36.2790465, -72.5544152],
+                {}
+            ).addTo(marker_cluster_21e8fe58789e40d2935dd934f9456622);
+        
+    
+        var popup_13342408da594f7b9d96ca5d850d9753 = L.popup({"maxWidth": 90});
+
+        
+            var html_b0fb03b9fe054abd9ae1415b5185939b = $(`<div id="html_b0fb03b9fe054abd9ae1415b5185939b" style="width: 100.0%; height: 100.0%;">Edad: 16 Masculino  (Hospital de Chillán)</div>`)[0];
+            popup_13342408da594f7b9d96ca5d850d9753.setContent(html_b0fb03b9fe054abd9ae1415b5185939b);
+        
+
+        marker_f8f3b88e169641299bf7d94e740b5df0.bindPopup(popup_13342408da594f7b9d96ca5d850d9753)
+        ;
+
+        
+    
+    
+            var marker_eb0353f850cb4433b25ebf787465eee2 = L.marker(
+                [-36.2790465, -72.5544152],
+                {}
+            ).addTo(marker_cluster_21e8fe58789e40d2935dd934f9456622);
+        
+    
+        var popup_14ebeb46479c40b69e8db565f328a0a2 = L.popup({"maxWidth": 90});
+
+        
+            var html_f276c286c68347a1b6a6cc02a5ab9b99 = $(`<div id="html_f276c286c68347a1b6a6cc02a5ab9b99" style="width: 100.0%; height: 100.0%;">Edad: 23 Masculino  (Hospital de Chillán)</div>`)[0];
+            popup_14ebeb46479c40b69e8db565f328a0a2.setContent(html_f276c286c68347a1b6a6cc02a5ab9b99);
+        
+
+        marker_eb0353f850cb4433b25ebf787465eee2.bindPopup(popup_14ebeb46479c40b69e8db565f328a0a2)
+        ;
+
+        
+    
+    
+            var marker_782992cc33694bd8ad97b4cfad09c344 = L.marker(
+                [-36.2790465, -72.5544152],
+                {}
+            ).addTo(marker_cluster_21e8fe58789e40d2935dd934f9456622);
+        
+    
+        var popup_eb0002393c094d0a9193acab30aeb3cf = L.popup({"maxWidth": 90});
+
+        
+            var html_0322ae2c00744e5da534cbbe52e6a3b2 = $(`<div id="html_0322ae2c00744e5da534cbbe52e6a3b2" style="width: 100.0%; height: 100.0%;">Edad: 23 Masculino  (Clínica de Chillán)</div>`)[0];
+            popup_eb0002393c094d0a9193acab30aeb3cf.setContent(html_0322ae2c00744e5da534cbbe52e6a3b2);
+        
+
+        marker_782992cc33694bd8ad97b4cfad09c344.bindPopup(popup_eb0002393c094d0a9193acab30aeb3cf)
+        ;
+
+        
+    
+    
+            var marker_be608e3e46f1411f803f2108ac6b4fc3 = L.marker(
+                [-36.964842, -72.9283855],
+                {}
+            ).addTo(marker_cluster_21e8fe58789e40d2935dd934f9456622);
+        
+    
+        var popup_4596404c8897475abe73fdaf357e1ee8 = L.popup({"maxWidth": 90});
+
+        
+            var html_ef66a0f4ba3d488f845f18fb0cc259d9 = $(`<div id="html_ef66a0f4ba3d488f845f18fb0cc259d9" style="width: 100.0%; height: 100.0%;">Edad: 38 Masculino  (Hospital de Los Ángeles)</div>`)[0];
+            popup_4596404c8897475abe73fdaf357e1ee8.setContent(html_ef66a0f4ba3d488f845f18fb0cc259d9);
+        
+
+        marker_be608e3e46f1411f803f2108ac6b4fc3.bindPopup(popup_4596404c8897475abe73fdaf357e1ee8)
+        ;
+
+        
+    
+    
+            var marker_cdb485f238604af19967e3e5e3c69b5d = L.marker(
+                [-36.964842, -72.9283855],
+                {}
+            ).addTo(marker_cluster_21e8fe58789e40d2935dd934f9456622);
+        
+    
+        var popup_c8c4dfa758f94e4fbe8f8dbb24068ccc = L.popup({"maxWidth": 90});
+
+        
+            var html_8bed97dce4d849fc867c685fdb9a9f3d = $(`<div id="html_8bed97dce4d849fc867c685fdb9a9f3d" style="width: 100.0%; height: 100.0%;">Edad: 34 Masculino  (Hospital G. Grant Benavente)</div>`)[0];
+            popup_c8c4dfa758f94e4fbe8f8dbb24068ccc.setContent(html_8bed97dce4d849fc867c685fdb9a9f3d);
+        
+
+        marker_cdb485f238604af19967e3e5e3c69b5d.bindPopup(popup_c8c4dfa758f94e4fbe8f8dbb24068ccc)
+        ;
+
+        
+    
+    
+            var marker_a4b64f1c6da7458ea3e138b8330ab9a0 = L.marker(
+                [-36.964842, -72.9283855],
+                {}
+            ).addTo(marker_cluster_21e8fe58789e40d2935dd934f9456622);
+        
+    
+        var popup_31f8c96f55fb4b4bac72c0f1f5f2a73e = L.popup({"maxWidth": 90});
+
+        
+            var html_d331581fc4b94f7d9174b314fd2dba6a = $(`<div id="html_d331581fc4b94f7d9174b314fd2dba6a" style="width: 100.0%; height: 100.0%;">Edad: 32 Masculino  (Clínica Universitaria)</div>`)[0];
+            popup_31f8c96f55fb4b4bac72c0f1f5f2a73e.setContent(html_d331581fc4b94f7d9174b314fd2dba6a);
+        
+
+        marker_a4b64f1c6da7458ea3e138b8330ab9a0.bindPopup(popup_31f8c96f55fb4b4bac72c0f1f5f2a73e)
+        ;
+
+        
+    
+    
+            var marker_5646dc4c25eb403baf93902903b9cfa6 = L.marker(
+                [-42.89802435, -72.43889081356666],
+                {}
+            ).addTo(marker_cluster_21e8fe58789e40d2935dd934f9456622);
+        
+    
+        var popup_d918e3048d38438a8edfe553cfbe755c = L.popup({"maxWidth": 90});
+
+        
+            var html_e956d8a904e647168b0623f133e0ff21 = $(`<div id="html_e956d8a904e647168b0623f133e0ff21" style="width: 100.0%; height: 100.0%;">Edad: 20 Femenino  (Hospital de Puerto Montt)</div>`)[0];
+            popup_d918e3048d38438a8edfe553cfbe755c.setContent(html_e956d8a904e647168b0623f133e0ff21);
+        
+
+        marker_5646dc4c25eb403baf93902903b9cfa6.bindPopup(popup_d918e3048d38438a8edfe553cfbe755c)
+        ;
+
+        
+    
+    
+            var marker_e4cf2ad851ad4915b911980a21782b8e = L.marker(
+                [-46.4590242, -72.6717865],
+                {}
+            ).addTo(marker_cluster_21e8fe58789e40d2935dd934f9456622);
+        
+    
+        var popup_f786882dbaca42e7a3ecc49c5326c7f4 = L.popup({"maxWidth": 90});
+
+        
+            var html_3d052a532acc40ddb68016e0d1a911ed = $(`<div id="html_3d052a532acc40ddb68016e0d1a911ed" style="width: 100.0%; height: 100.0%;">Edad: 83 Masculino  (Hospital de Aysén)</div>`)[0];
+            popup_f786882dbaca42e7a3ecc49c5326c7f4.setContent(html_3d052a532acc40ddb68016e0d1a911ed);
+        
+
+        marker_e4cf2ad851ad4915b911980a21782b8e.bindPopup(popup_f786882dbaca42e7a3ecc49c5326c7f4)
+        ;
+
+        
+    
+</script>
