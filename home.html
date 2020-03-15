@@ -23,7 +23,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_6eb1037e69824c03a6fb48be014eb792 {
+                #map_6cb0e2a915744960bbfd7348dba970e0 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -38,13 +38,13 @@
 </head>
 <body>    
     
-            <div class="folium-map" id="map_6eb1037e69824c03a6fb48be014eb792" ></div>
+            <div class="folium-map" id="map_6cb0e2a915744960bbfd7348dba970e0" ></div>
         
 </body>
 <script>    
     
-            var map_6eb1037e69824c03a6fb48be014eb792 = L.map(
-                "map_6eb1037e69824c03a6fb48be014eb792",
+            var map_6cb0e2a915744960bbfd7348dba970e0 = L.map(
+                "map_6cb0e2a915744960bbfd7348dba970e0",
                 {
                     center: [-35.675148, -71.5429688],
                     crs: L.CRS.EPSG3857,
@@ -58,1153 +58,1513 @@
 
         
     
-            var tile_layer_8d3af9267fa44bf0b2432ae201c14ecc = L.tileLayer(
-                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
-                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
-            ).addTo(map_6eb1037e69824c03a6fb48be014eb792);
+            var tile_layer_a2bbb602355c473aa3f5c05e1b2417b6 = L.tileLayer(
+                "https://cartodb-basemaps-{s}.global.ssl.fastly.net/dark_all/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"http://cartodb.com/attributions\"\u003eCartoDB\u003c/a\u003e, CartoDB \u003ca href =\"http://cartodb.com/attributions\"\u003eattributions\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_6cb0e2a915744960bbfd7348dba970e0);
         
     
-            var marker_cluster_21e8fe58789e40d2935dd934f9456622 = L.markerClusterGroup(
+            var marker_cluster_869e3ea99adb47068e53042eb9948424 = L.markerClusterGroup(
                 {}
             );
-            map_6eb1037e69824c03a6fb48be014eb792.addLayer(marker_cluster_21e8fe58789e40d2935dd934f9456622);
+            map_6cb0e2a915744960bbfd7348dba970e0.addLayer(marker_cluster_869e3ea99adb47068e53042eb9948424);
         
     
-            var marker_85c1ef9e68f7482380eeb114801c56fa = L.marker(
+            var marker_9fc951bc3971431c8420ea4dadc4f90b = L.marker(
                 [-22.4558642, -68.9274581],
                 {}
-            ).addTo(marker_cluster_21e8fe58789e40d2935dd934f9456622);
+            ).addTo(marker_cluster_869e3ea99adb47068e53042eb9948424);
         
     
-        var popup_e35797226d68425985d2e616c7dfc3b8 = L.popup({"maxWidth": 90});
+            var icon_cccf9bf130b54a6ca81dd7278e778d3e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9fc951bc3971431c8420ea4dadc4f90b.setIcon(icon_cccf9bf130b54a6ca81dd7278e778d3e);
+        
+    
+        var popup_3bd63d52128d4d7f968536b92bc650a5 = L.popup({"maxWidth": 90});
 
         
-            var html_b19ac7a75ac2406298712253f6275d9a = $(`<div id="html_b19ac7a75ac2406298712253f6275d9a" style="width: 100.0%; height: 100.0%;">Edad: 58 Femenino  (Hospital Carlos Cisternas Calama)</div>`)[0];
-            popup_e35797226d68425985d2e616c7dfc3b8.setContent(html_b19ac7a75ac2406298712253f6275d9a);
+            var html_6642905efacc4f6e852ddffe580f2bd8 = $(`<div id="html_6642905efacc4f6e852ddffe580f2bd8" style="width: 100.0%; height: 100.0%;">Edad: 58 Femenino  (Hospital Carlos Cisternas Calama)</div>`)[0];
+            popup_3bd63d52128d4d7f968536b92bc650a5.setContent(html_6642905efacc4f6e852ddffe580f2bd8);
         
 
-        marker_85c1ef9e68f7482380eeb114801c56fa.bindPopup(popup_e35797226d68425985d2e616c7dfc3b8)
+        marker_9fc951bc3971431c8420ea4dadc4f90b.bindPopup(popup_3bd63d52128d4d7f968536b92bc650a5)
         ;
 
         
     
     
-            var marker_e3b46d93529c4e46993db90e4c31ca0e = L.marker(
+            var marker_7dce220fa1d043afb68b33391e6527d9 = L.marker(
                 [-22.4558642, -68.9274581],
                 {}
-            ).addTo(marker_cluster_21e8fe58789e40d2935dd934f9456622);
+            ).addTo(marker_cluster_869e3ea99adb47068e53042eb9948424);
         
     
-        var popup_006b20c68e3545e985fffe60ec7ab58e = L.popup({"maxWidth": 90});
+            var icon_577795b6059b4a14825e2448ee0a99cd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_7dce220fa1d043afb68b33391e6527d9.setIcon(icon_577795b6059b4a14825e2448ee0a99cd);
+        
+    
+        var popup_b4c377f14f2845eebc940f082d4ade47 = L.popup({"maxWidth": 90});
 
         
-            var html_cd0a1d282e684febb56a4a750e8db9f8 = $(`<div id="html_cd0a1d282e684febb56a4a750e8db9f8" style="width: 100.0%; height: 100.0%;">Edad: 63 Masculino  (Hospital Carlos Cisternas Calama)</div>`)[0];
-            popup_006b20c68e3545e985fffe60ec7ab58e.setContent(html_cd0a1d282e684febb56a4a750e8db9f8);
+            var html_d3de87fe037b48e68393197bdc44ce39 = $(`<div id="html_d3de87fe037b48e68393197bdc44ce39" style="width: 100.0%; height: 100.0%;">Edad: 63 Masculino  (Hospital Carlos Cisternas Calama)</div>`)[0];
+            popup_b4c377f14f2845eebc940f082d4ade47.setContent(html_d3de87fe037b48e68393197bdc44ce39);
         
 
-        marker_e3b46d93529c4e46993db90e4c31ca0e.bindPopup(popup_006b20c68e3545e985fffe60ec7ab58e)
+        marker_7dce220fa1d043afb68b33391e6527d9.bindPopup(popup_b4c377f14f2845eebc940f082d4ade47)
         ;
 
         
     
     
-            var marker_f76dc9b80ec2418baa975787e1da7583 = L.marker(
+            var marker_cb0b71fda2a04eeda902a38f1253f28e = L.marker(
                 [-26.385295, -70.0477573],
                 {}
-            ).addTo(marker_cluster_21e8fe58789e40d2935dd934f9456622);
+            ).addTo(marker_cluster_869e3ea99adb47068e53042eb9948424);
         
     
-        var popup_db9a340f64a84b8f8b01e59cfad1aae4 = L.popup({"maxWidth": 90});
+            var icon_f87e4da057094bbf841d811bdf651d8a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_cb0b71fda2a04eeda902a38f1253f28e.setIcon(icon_f87e4da057094bbf841d811bdf651d8a);
+        
+    
+        var popup_db52564bb79a4039a05ef26187c1f802 = L.popup({"maxWidth": 90});
 
         
-            var html_a734efcfdb5440298c7a67416152c6b4 = $(`<div id="html_a734efcfdb5440298c7a67416152c6b4" style="width: 100.0%; height: 100.0%;">Edad: 50 Masculino  (Hospital de Copiapó)</div>`)[0];
-            popup_db9a340f64a84b8f8b01e59cfad1aae4.setContent(html_a734efcfdb5440298c7a67416152c6b4);
+            var html_45931238ee844997a601dc5747b05bde = $(`<div id="html_45931238ee844997a601dc5747b05bde" style="width: 100.0%; height: 100.0%;">Edad: 50 Masculino  (Hospital de Copiapó)</div>`)[0];
+            popup_db52564bb79a4039a05ef26187c1f802.setContent(html_45931238ee844997a601dc5747b05bde);
         
 
-        marker_f76dc9b80ec2418baa975787e1da7583.bindPopup(popup_db9a340f64a84b8f8b01e59cfad1aae4)
+        marker_cb0b71fda2a04eeda902a38f1253f28e.bindPopup(popup_db52564bb79a4039a05ef26187c1f802)
         ;
 
         
     
     
-            var marker_bb77a3eb7c17429d862cfea5e962249a = L.marker(
+            var marker_518f04500da743ec93c26bb5c8a6f8de = L.marker(
                 [-33.4354421, -70.6766162],
                 {}
-            ).addTo(marker_cluster_21e8fe58789e40d2935dd934f9456622);
+            ).addTo(marker_cluster_869e3ea99adb47068e53042eb9948424);
         
     
-        var popup_997455419e3c45dc91de5db08c33144d = L.popup({"maxWidth": 90});
+            var icon_d9446c3182084d3889adc30bce45e28a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_518f04500da743ec93c26bb5c8a6f8de.setIcon(icon_d9446c3182084d3889adc30bce45e28a);
+        
+    
+        var popup_43e7b3b6d7ea4fb39fc12b9dfcd211a9 = L.popup({"maxWidth": 90});
 
         
-            var html_91b436e4f54c4434895f76dfc2e453b1 = $(`<div id="html_91b436e4f54c4434895f76dfc2e453b1" style="width: 100.0%; height: 100.0%;">Edad: 54 Femenino  (Clínica Alemana)</div>`)[0];
-            popup_997455419e3c45dc91de5db08c33144d.setContent(html_91b436e4f54c4434895f76dfc2e453b1);
+            var html_774171e3a71147c380dd8355ce675e92 = $(`<div id="html_774171e3a71147c380dd8355ce675e92" style="width: 100.0%; height: 100.0%;">Edad: 54 Femenino  (Clínica Alemana)</div>`)[0];
+            popup_43e7b3b6d7ea4fb39fc12b9dfcd211a9.setContent(html_774171e3a71147c380dd8355ce675e92);
         
 
-        marker_bb77a3eb7c17429d862cfea5e962249a.bindPopup(popup_997455419e3c45dc91de5db08c33144d)
+        marker_518f04500da743ec93c26bb5c8a6f8de.bindPopup(popup_43e7b3b6d7ea4fb39fc12b9dfcd211a9)
         ;
 
         
     
     
-            var marker_5a08db6457534b1f85b8bad3bfcc1d97 = L.marker(
+            var marker_2454ee257d59472db7fa7cff11ed06a3 = L.marker(
                 [-33.4354421, -70.6766162],
                 {}
-            ).addTo(marker_cluster_21e8fe58789e40d2935dd934f9456622);
+            ).addTo(marker_cluster_869e3ea99adb47068e53042eb9948424);
         
     
-        var popup_deb6c2aee1e8471da9d1c56b5bf992cd = L.popup({"maxWidth": 90});
+            var icon_e0760e6220764708be36f65e253df40c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2454ee257d59472db7fa7cff11ed06a3.setIcon(icon_e0760e6220764708be36f65e253df40c);
+        
+    
+        var popup_96db3746c1da4fdfa3dd3287af3e0c44 = L.popup({"maxWidth": 90});
 
         
-            var html_fd751ed9339e4e5cae258df39c580d74 = $(`<div id="html_fd751ed9339e4e5cae258df39c580d74" style="width: 100.0%; height: 100.0%;">Edad: 40 Femenino  (Clínica Santa María)</div>`)[0];
-            popup_deb6c2aee1e8471da9d1c56b5bf992cd.setContent(html_fd751ed9339e4e5cae258df39c580d74);
+            var html_09527245132c48dd88e1e6724925988e = $(`<div id="html_09527245132c48dd88e1e6724925988e" style="width: 100.0%; height: 100.0%;">Edad: 40 Femenino  (Clínica Santa María)</div>`)[0];
+            popup_96db3746c1da4fdfa3dd3287af3e0c44.setContent(html_09527245132c48dd88e1e6724925988e);
         
 
-        marker_5a08db6457534b1f85b8bad3bfcc1d97.bindPopup(popup_deb6c2aee1e8471da9d1c56b5bf992cd)
+        marker_2454ee257d59472db7fa7cff11ed06a3.bindPopup(popup_96db3746c1da4fdfa3dd3287af3e0c44)
         ;
 
         
     
     
-            var marker_55f6ac5a83c047e094ead3e2e89f2e77 = L.marker(
+            var marker_77773a4d0b044b4382f8d9d1edf0ebac = L.marker(
                 [-33.4354421, -70.6766162],
                 {}
-            ).addTo(marker_cluster_21e8fe58789e40d2935dd934f9456622);
+            ).addTo(marker_cluster_869e3ea99adb47068e53042eb9948424);
         
     
-        var popup_2bb631b54c1e49e7a27a4eeaf9b3d568 = L.popup({"maxWidth": 90});
+            var icon_685b9248fd7c4323a48957048bc7e838 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_77773a4d0b044b4382f8d9d1edf0ebac.setIcon(icon_685b9248fd7c4323a48957048bc7e838);
+        
+    
+        var popup_9d7dd9575915476cabe0caefd77800bb = L.popup({"maxWidth": 90});
 
         
-            var html_40537504c96d4b92b8f77a1f7241b78b = $(`<div id="html_40537504c96d4b92b8f77a1f7241b78b" style="width: 100.0%; height: 100.0%;">Edad: 58 Masculino  (Clínica Alemana)</div>`)[0];
-            popup_2bb631b54c1e49e7a27a4eeaf9b3d568.setContent(html_40537504c96d4b92b8f77a1f7241b78b);
+            var html_accadc40c7ce4f0bad02528be07cc100 = $(`<div id="html_accadc40c7ce4f0bad02528be07cc100" style="width: 100.0%; height: 100.0%;">Edad: 58 Masculino  (Clínica Alemana)</div>`)[0];
+            popup_9d7dd9575915476cabe0caefd77800bb.setContent(html_accadc40c7ce4f0bad02528be07cc100);
         
 
-        marker_55f6ac5a83c047e094ead3e2e89f2e77.bindPopup(popup_2bb631b54c1e49e7a27a4eeaf9b3d568)
+        marker_77773a4d0b044b4382f8d9d1edf0ebac.bindPopup(popup_9d7dd9575915476cabe0caefd77800bb)
         ;
 
         
     
     
-            var marker_84f0cc9e5bf748808a0fffac78165225 = L.marker(
+            var marker_ca79c6d0c0a041da8ca22ead2c7708e3 = L.marker(
                 [-33.4354421, -70.6766162],
                 {}
-            ).addTo(marker_cluster_21e8fe58789e40d2935dd934f9456622);
+            ).addTo(marker_cluster_869e3ea99adb47068e53042eb9948424);
         
     
-        var popup_2e18b5437bb84156b725961937258c9c = L.popup({"maxWidth": 90});
+            var icon_96d2b435a2fb47239a126de298e4e6e7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ca79c6d0c0a041da8ca22ead2c7708e3.setIcon(icon_96d2b435a2fb47239a126de298e4e6e7);
+        
+    
+        var popup_254641c1233e42e49417c410269d82fd = L.popup({"maxWidth": 90});
 
         
-            var html_82991d6c35ca440aaf10460119e89220 = $(`<div id="html_82991d6c35ca440aaf10460119e89220" style="width: 100.0%; height: 100.0%;">Edad: 17 Masculino  (Clínica Alemana)</div>`)[0];
-            popup_2e18b5437bb84156b725961937258c9c.setContent(html_82991d6c35ca440aaf10460119e89220);
+            var html_35ae7c26239846e3ac7cc9897b35c206 = $(`<div id="html_35ae7c26239846e3ac7cc9897b35c206" style="width: 100.0%; height: 100.0%;">Edad: 17 Masculino  (Clínica Alemana)</div>`)[0];
+            popup_254641c1233e42e49417c410269d82fd.setContent(html_35ae7c26239846e3ac7cc9897b35c206);
         
 
-        marker_84f0cc9e5bf748808a0fffac78165225.bindPopup(popup_2e18b5437bb84156b725961937258c9c)
+        marker_ca79c6d0c0a041da8ca22ead2c7708e3.bindPopup(popup_254641c1233e42e49417c410269d82fd)
         ;
 
         
     
     
-            var marker_aea0fd926fbd4652863201034d73e136 = L.marker(
+            var marker_dd1490e473d94219b601c33d391af8a6 = L.marker(
                 [-33.4354421, -70.6766162],
                 {}
-            ).addTo(marker_cluster_21e8fe58789e40d2935dd934f9456622);
+            ).addTo(marker_cluster_869e3ea99adb47068e53042eb9948424);
         
     
-        var popup_57d8a42c3ed249e3964d2aef573ae012 = L.popup({"maxWidth": 90});
+            var icon_4472593dbd3540ac8719781dffb7d4bc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_dd1490e473d94219b601c33d391af8a6.setIcon(icon_4472593dbd3540ac8719781dffb7d4bc);
+        
+    
+        var popup_9c4d4063100d4934bc9118c3477f2e8c = L.popup({"maxWidth": 90});
 
         
-            var html_42972a25f9e6463396dd2e17a8d43a77 = $(`<div id="html_42972a25f9e6463396dd2e17a8d43a77" style="width: 100.0%; height: 100.0%;">Edad: 83 Femenino  (Clínica Las Condes)</div>`)[0];
-            popup_57d8a42c3ed249e3964d2aef573ae012.setContent(html_42972a25f9e6463396dd2e17a8d43a77);
+            var html_69a7f6fac6ef47bb945c60990493979e = $(`<div id="html_69a7f6fac6ef47bb945c60990493979e" style="width: 100.0%; height: 100.0%;">Edad: 83 Femenino  (Clínica Las Condes)</div>`)[0];
+            popup_9c4d4063100d4934bc9118c3477f2e8c.setContent(html_69a7f6fac6ef47bb945c60990493979e);
         
 
-        marker_aea0fd926fbd4652863201034d73e136.bindPopup(popup_57d8a42c3ed249e3964d2aef573ae012)
+        marker_dd1490e473d94219b601c33d391af8a6.bindPopup(popup_9c4d4063100d4934bc9118c3477f2e8c)
         ;
 
         
     
     
-            var marker_49dd9d21f70b437d8fe105a4c21c426d = L.marker(
+            var marker_533c4d71a5d64409affc5624eb583100 = L.marker(
                 [-33.4354421, -70.6766162],
                 {}
-            ).addTo(marker_cluster_21e8fe58789e40d2935dd934f9456622);
+            ).addTo(marker_cluster_869e3ea99adb47068e53042eb9948424);
         
     
-        var popup_4a95287e729243b299879395621baf63 = L.popup({"maxWidth": 90});
+            var icon_43e46d8a4e534035a902eab8ec51c3d5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_533c4d71a5d64409affc5624eb583100.setIcon(icon_43e46d8a4e534035a902eab8ec51c3d5);
+        
+    
+        var popup_bb27fbc12a154e8eb37676cb7144eecb = L.popup({"maxWidth": 90});
 
         
-            var html_94200bd69b1644879e25aafaaafff758 = $(`<div id="html_94200bd69b1644879e25aafaaafff758" style="width: 100.0%; height: 100.0%;">Edad: 14 Masculino  (Clínica Alemana)</div>`)[0];
-            popup_4a95287e729243b299879395621baf63.setContent(html_94200bd69b1644879e25aafaaafff758);
+            var html_6d99f1e99a3846e9b58f7e74cf394058 = $(`<div id="html_6d99f1e99a3846e9b58f7e74cf394058" style="width: 100.0%; height: 100.0%;">Edad: 14 Masculino  (Clínica Alemana)</div>`)[0];
+            popup_bb27fbc12a154e8eb37676cb7144eecb.setContent(html_6d99f1e99a3846e9b58f7e74cf394058);
         
 
-        marker_49dd9d21f70b437d8fe105a4c21c426d.bindPopup(popup_4a95287e729243b299879395621baf63)
+        marker_533c4d71a5d64409affc5624eb583100.bindPopup(popup_bb27fbc12a154e8eb37676cb7144eecb)
         ;
 
         
     
     
-            var marker_40c50940aa02451796dabf15fab9d7f5 = L.marker(
+            var marker_c4310c8df1284c7ca155ef4570967404 = L.marker(
                 [-33.4354421, -70.6766162],
                 {}
-            ).addTo(marker_cluster_21e8fe58789e40d2935dd934f9456622);
+            ).addTo(marker_cluster_869e3ea99adb47068e53042eb9948424);
         
     
-        var popup_5052551073ba499690b325b98ca7f7e0 = L.popup({"maxWidth": 90});
+            var icon_fe1d40094f1543658081543719a3c31b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c4310c8df1284c7ca155ef4570967404.setIcon(icon_fe1d40094f1543658081543719a3c31b);
+        
+    
+        var popup_e770595d34c14a28b6f52dae87b6aa3d = L.popup({"maxWidth": 90});
 
         
-            var html_08bf756f7e1744429fb74793be91feff = $(`<div id="html_08bf756f7e1744429fb74793be91feff" style="width: 100.0%; height: 100.0%;">Edad: 42 Masculino  (Clínica U. de Los Andes)</div>`)[0];
-            popup_5052551073ba499690b325b98ca7f7e0.setContent(html_08bf756f7e1744429fb74793be91feff);
+            var html_b525fdfc4fc34708949f79ff2c889bd1 = $(`<div id="html_b525fdfc4fc34708949f79ff2c889bd1" style="width: 100.0%; height: 100.0%;">Edad: 42 Masculino  (Clínica U. de Los Andes)</div>`)[0];
+            popup_e770595d34c14a28b6f52dae87b6aa3d.setContent(html_b525fdfc4fc34708949f79ff2c889bd1);
         
 
-        marker_40c50940aa02451796dabf15fab9d7f5.bindPopup(popup_5052551073ba499690b325b98ca7f7e0)
+        marker_c4310c8df1284c7ca155ef4570967404.bindPopup(popup_e770595d34c14a28b6f52dae87b6aa3d)
         ;
 
         
     
     
-            var marker_f6709874fb7d4da289589a5acedb03b6 = L.marker(
+            var marker_cf1fa627a3ad417fb96490914f2f5719 = L.marker(
                 [-33.4354421, -70.6766162],
                 {}
-            ).addTo(marker_cluster_21e8fe58789e40d2935dd934f9456622);
+            ).addTo(marker_cluster_869e3ea99adb47068e53042eb9948424);
         
     
-        var popup_b9305724274c4b5390d55c831aed4aaf = L.popup({"maxWidth": 90});
+            var icon_b8e92f04635c4e93b38071ecc188ca4d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_cf1fa627a3ad417fb96490914f2f5719.setIcon(icon_b8e92f04635c4e93b38071ecc188ca4d);
+        
+    
+        var popup_d2421f72a1ae422dacb67b0d4fc45984 = L.popup({"maxWidth": 90});
 
         
-            var html_4685f1d7c8624c5c9a7e6034d4191a64 = $(`<div id="html_4685f1d7c8624c5c9a7e6034d4191a64" style="width: 100.0%; height: 100.0%;">Edad: 40 Masculino  (Clínica U. de Los Andes)</div>`)[0];
-            popup_b9305724274c4b5390d55c831aed4aaf.setContent(html_4685f1d7c8624c5c9a7e6034d4191a64);
+            var html_4d869ca5a290454089a52bda9e128022 = $(`<div id="html_4d869ca5a290454089a52bda9e128022" style="width: 100.0%; height: 100.0%;">Edad: 40 Masculino  (Clínica U. de Los Andes)</div>`)[0];
+            popup_d2421f72a1ae422dacb67b0d4fc45984.setContent(html_4d869ca5a290454089a52bda9e128022);
         
 
-        marker_f6709874fb7d4da289589a5acedb03b6.bindPopup(popup_b9305724274c4b5390d55c831aed4aaf)
+        marker_cf1fa627a3ad417fb96490914f2f5719.bindPopup(popup_d2421f72a1ae422dacb67b0d4fc45984)
         ;
 
         
     
     
-            var marker_d929f635a196486a8c7e5a8136754c54 = L.marker(
+            var marker_79abfcc13c7847fea64052e42c15e590 = L.marker(
                 [-33.4354421, -70.6766162],
                 {}
-            ).addTo(marker_cluster_21e8fe58789e40d2935dd934f9456622);
+            ).addTo(marker_cluster_869e3ea99adb47068e53042eb9948424);
         
     
-        var popup_d2fb2a7353a54b42ba0ccc6ea2ab62f0 = L.popup({"maxWidth": 90});
+            var icon_954ec0a577c94097bcc61ef0653c6612 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_79abfcc13c7847fea64052e42c15e590.setIcon(icon_954ec0a577c94097bcc61ef0653c6612);
+        
+    
+        var popup_cbb2d6990a09498b9e70f5704ce017f1 = L.popup({"maxWidth": 90});
 
         
-            var html_b5dda4d56c4c4573a2709db86153ebdf = $(`<div id="html_b5dda4d56c4c4573a2709db86153ebdf" style="width: 100.0%; height: 100.0%;">Edad: 31 Femenino  (Clínica Santa María)</div>`)[0];
-            popup_d2fb2a7353a54b42ba0ccc6ea2ab62f0.setContent(html_b5dda4d56c4c4573a2709db86153ebdf);
+            var html_5bd68e77e50a48a195de9bf81bd5927e = $(`<div id="html_5bd68e77e50a48a195de9bf81bd5927e" style="width: 100.0%; height: 100.0%;">Edad: 31 Femenino  (Clínica Santa María)</div>`)[0];
+            popup_cbb2d6990a09498b9e70f5704ce017f1.setContent(html_5bd68e77e50a48a195de9bf81bd5927e);
         
 
-        marker_d929f635a196486a8c7e5a8136754c54.bindPopup(popup_d2fb2a7353a54b42ba0ccc6ea2ab62f0)
+        marker_79abfcc13c7847fea64052e42c15e590.bindPopup(popup_cbb2d6990a09498b9e70f5704ce017f1)
         ;
 
         
     
     
-            var marker_66978fbb82d14b31b9a72669c488916a = L.marker(
+            var marker_bedcf44db218444983b1af2e8e3f68fb = L.marker(
                 [-33.4354421, -70.6766162],
                 {}
-            ).addTo(marker_cluster_21e8fe58789e40d2935dd934f9456622);
+            ).addTo(marker_cluster_869e3ea99adb47068e53042eb9948424);
         
     
-        var popup_9b45db359a384913b9f4a3f3d76f4d59 = L.popup({"maxWidth": 90});
+            var icon_d62f21fe1abf49fda43aab7a52fdaa05 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_bedcf44db218444983b1af2e8e3f68fb.setIcon(icon_d62f21fe1abf49fda43aab7a52fdaa05);
+        
+    
+        var popup_9d3f12346ab94db5b7481e4924344457 = L.popup({"maxWidth": 90});
 
         
-            var html_5c3ddd941b7d45eca8fccbd415cb27cb = $(`<div id="html_5c3ddd941b7d45eca8fccbd415cb27cb" style="width: 100.0%; height: 100.0%;">Edad: 32 Femenino  (Clínica Alemana)</div>`)[0];
-            popup_9b45db359a384913b9f4a3f3d76f4d59.setContent(html_5c3ddd941b7d45eca8fccbd415cb27cb);
+            var html_dc34abe2dbf44b28931f6a43c9c0698d = $(`<div id="html_dc34abe2dbf44b28931f6a43c9c0698d" style="width: 100.0%; height: 100.0%;">Edad: 32 Femenino  (Clínica Alemana)</div>`)[0];
+            popup_9d3f12346ab94db5b7481e4924344457.setContent(html_dc34abe2dbf44b28931f6a43c9c0698d);
         
 
-        marker_66978fbb82d14b31b9a72669c488916a.bindPopup(popup_9b45db359a384913b9f4a3f3d76f4d59)
+        marker_bedcf44db218444983b1af2e8e3f68fb.bindPopup(popup_9d3f12346ab94db5b7481e4924344457)
         ;
 
         
     
     
-            var marker_a3e019d4325949bd8b1b5ee494e26f9d = L.marker(
+            var marker_838d1d2e46c84b2b84963f11a287f6fd = L.marker(
                 [-33.4354421, -70.6766162],
                 {}
-            ).addTo(marker_cluster_21e8fe58789e40d2935dd934f9456622);
+            ).addTo(marker_cluster_869e3ea99adb47068e53042eb9948424);
         
     
-        var popup_76b28fc2b17748e6a97a80c5526145a2 = L.popup({"maxWidth": 90});
+            var icon_51d84bbcf1884c66a74571530774d986 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_838d1d2e46c84b2b84963f11a287f6fd.setIcon(icon_51d84bbcf1884c66a74571530774d986);
+        
+    
+        var popup_fca8093576cf4ed78f491969cfa154b7 = L.popup({"maxWidth": 90});
 
         
-            var html_aee49e60df2b4c00ad90bba575c00c17 = $(`<div id="html_aee49e60df2b4c00ad90bba575c00c17" style="width: 100.0%; height: 100.0%;">Edad: 58 Femenino  (Clínica Santa María)</div>`)[0];
-            popup_76b28fc2b17748e6a97a80c5526145a2.setContent(html_aee49e60df2b4c00ad90bba575c00c17);
+            var html_af494dd26ea44106bddc8ca035fd2751 = $(`<div id="html_af494dd26ea44106bddc8ca035fd2751" style="width: 100.0%; height: 100.0%;">Edad: 58 Femenino  (Clínica Santa María)</div>`)[0];
+            popup_fca8093576cf4ed78f491969cfa154b7.setContent(html_af494dd26ea44106bddc8ca035fd2751);
         
 
-        marker_a3e019d4325949bd8b1b5ee494e26f9d.bindPopup(popup_76b28fc2b17748e6a97a80c5526145a2)
+        marker_838d1d2e46c84b2b84963f11a287f6fd.bindPopup(popup_fca8093576cf4ed78f491969cfa154b7)
         ;
 
         
     
     
-            var marker_df134d6c3f104cd385712b432a0a7bd5 = L.marker(
+            var marker_e0806a9204354cdabb46a129cba2fa1b = L.marker(
                 [-33.4354421, -70.6766162],
                 {}
-            ).addTo(marker_cluster_21e8fe58789e40d2935dd934f9456622);
+            ).addTo(marker_cluster_869e3ea99adb47068e53042eb9948424);
         
     
-        var popup_d43adacdeaf147a9ab9487272b41a3e0 = L.popup({"maxWidth": 90});
+            var icon_df3ec2930dfb4ce0be0667b73dc25b57 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e0806a9204354cdabb46a129cba2fa1b.setIcon(icon_df3ec2930dfb4ce0be0667b73dc25b57);
+        
+    
+        var popup_ccbf30a8fc414d4eaf6d8436dd7bd641 = L.popup({"maxWidth": 90});
 
         
-            var html_df82cc9efbda47578f8530fc70303123 = $(`<div id="html_df82cc9efbda47578f8530fc70303123" style="width: 100.0%; height: 100.0%;">Edad: 48 Femenino  (Clínica Alemana)</div>`)[0];
-            popup_d43adacdeaf147a9ab9487272b41a3e0.setContent(html_df82cc9efbda47578f8530fc70303123);
+            var html_0d00f0b9a6ee4866ad80cb54f6ad72d0 = $(`<div id="html_0d00f0b9a6ee4866ad80cb54f6ad72d0" style="width: 100.0%; height: 100.0%;">Edad: 48 Femenino  (Clínica Alemana)</div>`)[0];
+            popup_ccbf30a8fc414d4eaf6d8436dd7bd641.setContent(html_0d00f0b9a6ee4866ad80cb54f6ad72d0);
         
 
-        marker_df134d6c3f104cd385712b432a0a7bd5.bindPopup(popup_d43adacdeaf147a9ab9487272b41a3e0)
+        marker_e0806a9204354cdabb46a129cba2fa1b.bindPopup(popup_ccbf30a8fc414d4eaf6d8436dd7bd641)
         ;
 
         
     
     
-            var marker_b2d47868945d4fed8ece425bc0480548 = L.marker(
+            var marker_93acc090790c4c978fd98359a09e5d3a = L.marker(
                 [-33.4354421, -70.6766162],
                 {}
-            ).addTo(marker_cluster_21e8fe58789e40d2935dd934f9456622);
+            ).addTo(marker_cluster_869e3ea99adb47068e53042eb9948424);
         
     
-        var popup_dc5f469db2f94df688967f3af48e417d = L.popup({"maxWidth": 90});
+            var icon_8f0cffac2ff34e708f8fe1cf47d0e5ce = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_93acc090790c4c978fd98359a09e5d3a.setIcon(icon_8f0cffac2ff34e708f8fe1cf47d0e5ce);
+        
+    
+        var popup_1c0d923687d040928459a29b00e62989 = L.popup({"maxWidth": 90});
 
         
-            var html_c76e113ffedd42498b27e054ad3ff83a = $(`<div id="html_c76e113ffedd42498b27e054ad3ff83a" style="width: 100.0%; height: 100.0%;">Edad: 23 Femenino  (Hospital de Carabineros)</div>`)[0];
-            popup_dc5f469db2f94df688967f3af48e417d.setContent(html_c76e113ffedd42498b27e054ad3ff83a);
+            var html_100d82d5d6df42f9b572f238754a58d7 = $(`<div id="html_100d82d5d6df42f9b572f238754a58d7" style="width: 100.0%; height: 100.0%;">Edad: 23 Femenino  (Hospital de Carabineros)</div>`)[0];
+            popup_1c0d923687d040928459a29b00e62989.setContent(html_100d82d5d6df42f9b572f238754a58d7);
         
 
-        marker_b2d47868945d4fed8ece425bc0480548.bindPopup(popup_dc5f469db2f94df688967f3af48e417d)
+        marker_93acc090790c4c978fd98359a09e5d3a.bindPopup(popup_1c0d923687d040928459a29b00e62989)
         ;
 
         
     
     
-            var marker_7852d89186d343ef9193a0ab019bc5fa = L.marker(
+            var marker_222cc6ff304f4bf399f9608e5749fee3 = L.marker(
                 [-33.4354421, -70.6766162],
                 {}
-            ).addTo(marker_cluster_21e8fe58789e40d2935dd934f9456622);
+            ).addTo(marker_cluster_869e3ea99adb47068e53042eb9948424);
         
     
-        var popup_a1541be0c7bb43368599cace8b1904d8 = L.popup({"maxWidth": 90});
+            var icon_6c9d02f2e01e4080bf5421ee7cca0a24 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_222cc6ff304f4bf399f9608e5749fee3.setIcon(icon_6c9d02f2e01e4080bf5421ee7cca0a24);
+        
+    
+        var popup_88eae4650b6d40139e3b30e745200489 = L.popup({"maxWidth": 90});
 
         
-            var html_0bd9543616f24d47b14b304cbc394776 = $(`<div id="html_0bd9543616f24d47b14b304cbc394776" style="width: 100.0%; height: 100.0%;">Edad: 26 Masculino  (Red de Salud UC-Christus San Carlos de Apoquindo)</div>`)[0];
-            popup_a1541be0c7bb43368599cace8b1904d8.setContent(html_0bd9543616f24d47b14b304cbc394776);
+            var html_5b63233f529341378ec989d1a261a456 = $(`<div id="html_5b63233f529341378ec989d1a261a456" style="width: 100.0%; height: 100.0%;">Edad: 26 Masculino  (Red de Salud UC-Christus San Carlos de Apoquindo)</div>`)[0];
+            popup_88eae4650b6d40139e3b30e745200489.setContent(html_5b63233f529341378ec989d1a261a456);
         
 
-        marker_7852d89186d343ef9193a0ab019bc5fa.bindPopup(popup_a1541be0c7bb43368599cace8b1904d8)
+        marker_222cc6ff304f4bf399f9608e5749fee3.bindPopup(popup_88eae4650b6d40139e3b30e745200489)
         ;
 
         
     
     
-            var marker_b6e07c1094b548969bf78ef427e872e5 = L.marker(
+            var marker_be4310890ca54c5497f146f938a47e00 = L.marker(
                 [-33.4354421, -70.6766162],
                 {}
-            ).addTo(marker_cluster_21e8fe58789e40d2935dd934f9456622);
+            ).addTo(marker_cluster_869e3ea99adb47068e53042eb9948424);
         
     
-        var popup_4d85100cbd3a4ab381325e84c7661bab = L.popup({"maxWidth": 90});
+            var icon_64eb004c4a8e491ebcd3d7daa71bd8cb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_be4310890ca54c5497f146f938a47e00.setIcon(icon_64eb004c4a8e491ebcd3d7daa71bd8cb);
+        
+    
+        var popup_125e20c9669e481cb272c179b5f69711 = L.popup({"maxWidth": 90});
 
         
-            var html_2e0325f0318f408683e66e24cf97d707 = $(`<div id="html_2e0325f0318f408683e66e24cf97d707" style="width: 100.0%; height: 100.0%;">Edad: 46 Femenino  (Clínica Alemana)</div>`)[0];
-            popup_4d85100cbd3a4ab381325e84c7661bab.setContent(html_2e0325f0318f408683e66e24cf97d707);
+            var html_83039b76c9be4cdaad42b8dd6bcd41e0 = $(`<div id="html_83039b76c9be4cdaad42b8dd6bcd41e0" style="width: 100.0%; height: 100.0%;">Edad: 46 Femenino  (Clínica Alemana)</div>`)[0];
+            popup_125e20c9669e481cb272c179b5f69711.setContent(html_83039b76c9be4cdaad42b8dd6bcd41e0);
         
 
-        marker_b6e07c1094b548969bf78ef427e872e5.bindPopup(popup_4d85100cbd3a4ab381325e84c7661bab)
+        marker_be4310890ca54c5497f146f938a47e00.bindPopup(popup_125e20c9669e481cb272c179b5f69711)
         ;
 
         
     
     
-            var marker_76ff927b76464e7098c9976551cb5d0a = L.marker(
+            var marker_99180c4b8b5541a8b8e509ef0f5cc0f2 = L.marker(
                 [-33.4354421, -70.6766162],
                 {}
-            ).addTo(marker_cluster_21e8fe58789e40d2935dd934f9456622);
+            ).addTo(marker_cluster_869e3ea99adb47068e53042eb9948424);
         
     
-        var popup_b2f29397793e4e2d8b4754f763a1dc3b = L.popup({"maxWidth": 90});
+            var icon_2687b666ddb84d2da61bb70439ef0d93 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_99180c4b8b5541a8b8e509ef0f5cc0f2.setIcon(icon_2687b666ddb84d2da61bb70439ef0d93);
+        
+    
+        var popup_e95af76eb08948b1a84e599a797e6090 = L.popup({"maxWidth": 90});
 
         
-            var html_72df69ec1ba64d488315119ecbfab1b7 = $(`<div id="html_72df69ec1ba64d488315119ecbfab1b7" style="width: 100.0%; height: 100.0%;">Edad: 67 Masculino  (Clínica Alemana)</div>`)[0];
-            popup_b2f29397793e4e2d8b4754f763a1dc3b.setContent(html_72df69ec1ba64d488315119ecbfab1b7);
+            var html_47148d3da1ee45949b455c0141a6d4b3 = $(`<div id="html_47148d3da1ee45949b455c0141a6d4b3" style="width: 100.0%; height: 100.0%;">Edad: 67 Masculino  (Clínica Alemana)</div>`)[0];
+            popup_e95af76eb08948b1a84e599a797e6090.setContent(html_47148d3da1ee45949b455c0141a6d4b3);
         
 
-        marker_76ff927b76464e7098c9976551cb5d0a.bindPopup(popup_b2f29397793e4e2d8b4754f763a1dc3b)
+        marker_99180c4b8b5541a8b8e509ef0f5cc0f2.bindPopup(popup_e95af76eb08948b1a84e599a797e6090)
         ;
 
         
     
     
-            var marker_fcfb80cc04d848f0b7bcf73c72d57b6f = L.marker(
+            var marker_07b9ee9e259c4274ac6c2b64c63f5b57 = L.marker(
                 [-33.4354421, -70.6766162],
                 {}
-            ).addTo(marker_cluster_21e8fe58789e40d2935dd934f9456622);
+            ).addTo(marker_cluster_869e3ea99adb47068e53042eb9948424);
         
     
-        var popup_1eaf9bc1228c4bcdbf4c619ab9c08fef = L.popup({"maxWidth": 90});
+            var icon_49c8057492a345409563daf94a546621 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_07b9ee9e259c4274ac6c2b64c63f5b57.setIcon(icon_49c8057492a345409563daf94a546621);
+        
+    
+        var popup_4cc4e0f08f9a47d4a155658f0a8315c5 = L.popup({"maxWidth": 90});
 
         
-            var html_11a8f23451df43cd9550d72a0721cd12 = $(`<div id="html_11a8f23451df43cd9550d72a0721cd12" style="width: 100.0%; height: 100.0%;">Edad: 31 Femenino  (Clínica Alemana)</div>`)[0];
-            popup_1eaf9bc1228c4bcdbf4c619ab9c08fef.setContent(html_11a8f23451df43cd9550d72a0721cd12);
+            var html_ec33d396cbdc43edb42cbba32134d241 = $(`<div id="html_ec33d396cbdc43edb42cbba32134d241" style="width: 100.0%; height: 100.0%;">Edad: 31 Femenino  (Clínica Alemana)</div>`)[0];
+            popup_4cc4e0f08f9a47d4a155658f0a8315c5.setContent(html_ec33d396cbdc43edb42cbba32134d241);
         
 
-        marker_fcfb80cc04d848f0b7bcf73c72d57b6f.bindPopup(popup_1eaf9bc1228c4bcdbf4c619ab9c08fef)
+        marker_07b9ee9e259c4274ac6c2b64c63f5b57.bindPopup(popup_4cc4e0f08f9a47d4a155658f0a8315c5)
         ;
 
         
     
     
-            var marker_001221a034b1491db14aab2da731f6a8 = L.marker(
+            var marker_5f3a38033c9e4444b1c5db73a2f0614c = L.marker(
                 [-33.4354421, -70.6766162],
                 {}
-            ).addTo(marker_cluster_21e8fe58789e40d2935dd934f9456622);
+            ).addTo(marker_cluster_869e3ea99adb47068e53042eb9948424);
         
     
-        var popup_8d0f92a0d25241b194ebaae72e991e68 = L.popup({"maxWidth": 90});
+            var icon_10ffea2ba51a48c3bb6c8b5709acbe1f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_5f3a38033c9e4444b1c5db73a2f0614c.setIcon(icon_10ffea2ba51a48c3bb6c8b5709acbe1f);
+        
+    
+        var popup_63f8255e96074483b69fafe829c318f2 = L.popup({"maxWidth": 90});
 
         
-            var html_77709b16eee14cbeac147261f88a68c7 = $(`<div id="html_77709b16eee14cbeac147261f88a68c7" style="width: 100.0%; height: 100.0%;">Edad: 46 Femenino  (Clínica Alemana)</div>`)[0];
-            popup_8d0f92a0d25241b194ebaae72e991e68.setContent(html_77709b16eee14cbeac147261f88a68c7);
+            var html_e4e2ffa259b14353a5e9f096cf6c1ff8 = $(`<div id="html_e4e2ffa259b14353a5e9f096cf6c1ff8" style="width: 100.0%; height: 100.0%;">Edad: 46 Femenino  (Clínica Alemana)</div>`)[0];
+            popup_63f8255e96074483b69fafe829c318f2.setContent(html_e4e2ffa259b14353a5e9f096cf6c1ff8);
         
 
-        marker_001221a034b1491db14aab2da731f6a8.bindPopup(popup_8d0f92a0d25241b194ebaae72e991e68)
+        marker_5f3a38033c9e4444b1c5db73a2f0614c.bindPopup(popup_63f8255e96074483b69fafe829c318f2)
         ;
 
         
     
     
-            var marker_fbf04f2f68e4449b8db7025f417858f8 = L.marker(
+            var marker_d27c4e9d8351428dbdee8001cb805fe0 = L.marker(
                 [-33.4354421, -70.6766162],
                 {}
-            ).addTo(marker_cluster_21e8fe58789e40d2935dd934f9456622);
+            ).addTo(marker_cluster_869e3ea99adb47068e53042eb9948424);
         
     
-        var popup_7017882543ba452bb312ee52b44a1017 = L.popup({"maxWidth": 90});
+            var icon_3dac3199838f42ccbf38a3d38c79f132 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d27c4e9d8351428dbdee8001cb805fe0.setIcon(icon_3dac3199838f42ccbf38a3d38c79f132);
+        
+    
+        var popup_4f80f20c514a4b54994fb118b65cd90b = L.popup({"maxWidth": 90});
 
         
-            var html_7bbbaf1bbf3145929930a7dce3ce8688 = $(`<div id="html_7bbbaf1bbf3145929930a7dce3ce8688" style="width: 100.0%; height: 100.0%;">Edad: 23 Masculino  (Clínica Alemana)</div>`)[0];
-            popup_7017882543ba452bb312ee52b44a1017.setContent(html_7bbbaf1bbf3145929930a7dce3ce8688);
+            var html_01f61f7136224626ad785d9865ccd577 = $(`<div id="html_01f61f7136224626ad785d9865ccd577" style="width: 100.0%; height: 100.0%;">Edad: 23 Masculino  (Clínica Alemana)</div>`)[0];
+            popup_4f80f20c514a4b54994fb118b65cd90b.setContent(html_01f61f7136224626ad785d9865ccd577);
         
 
-        marker_fbf04f2f68e4449b8db7025f417858f8.bindPopup(popup_7017882543ba452bb312ee52b44a1017)
+        marker_d27c4e9d8351428dbdee8001cb805fe0.bindPopup(popup_4f80f20c514a4b54994fb118b65cd90b)
         ;
 
         
     
     
-            var marker_5dda6a58b9ff481fabfc0a223a5b91b4 = L.marker(
+            var marker_4fdb4e5e6eb44f85bb9af6245bd5f20d = L.marker(
                 [-33.4354421, -70.6766162],
                 {}
-            ).addTo(marker_cluster_21e8fe58789e40d2935dd934f9456622);
+            ).addTo(marker_cluster_869e3ea99adb47068e53042eb9948424);
         
     
-        var popup_f44152a4513f4c839f0a2342a3687d81 = L.popup({"maxWidth": 90});
+            var icon_e8c7743916f94d15b3b2d283c0caf673 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4fdb4e5e6eb44f85bb9af6245bd5f20d.setIcon(icon_e8c7743916f94d15b3b2d283c0caf673);
+        
+    
+        var popup_06f9d986486a42e895a57ace853b6a07 = L.popup({"maxWidth": 90});
 
         
-            var html_91a10822522240b3bfd7900b5e8bffe6 = $(`<div id="html_91a10822522240b3bfd7900b5e8bffe6" style="width: 100.0%; height: 100.0%;">Edad: 34 Femenino  (Clínica Tabancura)</div>`)[0];
-            popup_f44152a4513f4c839f0a2342a3687d81.setContent(html_91a10822522240b3bfd7900b5e8bffe6);
+            var html_3fd9435383db407797273709ac7429bd = $(`<div id="html_3fd9435383db407797273709ac7429bd" style="width: 100.0%; height: 100.0%;">Edad: 34 Femenino  (Clínica Tabancura)</div>`)[0];
+            popup_06f9d986486a42e895a57ace853b6a07.setContent(html_3fd9435383db407797273709ac7429bd);
         
 
-        marker_5dda6a58b9ff481fabfc0a223a5b91b4.bindPopup(popup_f44152a4513f4c839f0a2342a3687d81)
+        marker_4fdb4e5e6eb44f85bb9af6245bd5f20d.bindPopup(popup_06f9d986486a42e895a57ace853b6a07)
         ;
 
         
     
     
-            var marker_118aa288fc0749999ccf5bfb1f12a0c0 = L.marker(
+            var marker_c99f488603fa4150b80ca663b07b6cf4 = L.marker(
                 [-33.4354421, -70.6766162],
                 {}
-            ).addTo(marker_cluster_21e8fe58789e40d2935dd934f9456622);
+            ).addTo(marker_cluster_869e3ea99adb47068e53042eb9948424);
         
     
-        var popup_fe357b0dcb7c42eb95cd998f39f75dd4 = L.popup({"maxWidth": 90});
+            var icon_6c3b7dd4deb545b088c6700970a2f7ce = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c99f488603fa4150b80ca663b07b6cf4.setIcon(icon_6c3b7dd4deb545b088c6700970a2f7ce);
+        
+    
+        var popup_bed3fa982f4246b89dd71a683f2f52ce = L.popup({"maxWidth": 90});
 
         
-            var html_630d6892b7d54919ba1c5b08df2e256c = $(`<div id="html_630d6892b7d54919ba1c5b08df2e256c" style="width: 100.0%; height: 100.0%;">Edad: 29 Femenino  (Clínica Las Condes)</div>`)[0];
-            popup_fe357b0dcb7c42eb95cd998f39f75dd4.setContent(html_630d6892b7d54919ba1c5b08df2e256c);
+            var html_d9eff2f5fb194c6eb0e073f4bbd84271 = $(`<div id="html_d9eff2f5fb194c6eb0e073f4bbd84271" style="width: 100.0%; height: 100.0%;">Edad: 29 Femenino  (Clínica Las Condes)</div>`)[0];
+            popup_bed3fa982f4246b89dd71a683f2f52ce.setContent(html_d9eff2f5fb194c6eb0e073f4bbd84271);
         
 
-        marker_118aa288fc0749999ccf5bfb1f12a0c0.bindPopup(popup_fe357b0dcb7c42eb95cd998f39f75dd4)
+        marker_c99f488603fa4150b80ca663b07b6cf4.bindPopup(popup_bed3fa982f4246b89dd71a683f2f52ce)
         ;
 
         
     
     
-            var marker_4d518b75284b48b48b9710e5ac425622 = L.marker(
+            var marker_83143cf181d34995885cc2626a6d650b = L.marker(
                 [-33.4354421, -70.6766162],
                 {}
-            ).addTo(marker_cluster_21e8fe58789e40d2935dd934f9456622);
+            ).addTo(marker_cluster_869e3ea99adb47068e53042eb9948424);
         
     
-        var popup_0adb2b36851746a3a70c54b147d4023c = L.popup({"maxWidth": 90});
+            var icon_fa1c08dc078c47d6b5b26c2bb9a10a5b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_83143cf181d34995885cc2626a6d650b.setIcon(icon_fa1c08dc078c47d6b5b26c2bb9a10a5b);
+        
+    
+        var popup_805d432648574635a4cfd4bbb88c6c80 = L.popup({"maxWidth": 90});
 
         
-            var html_84779ae0461e42db89035f075b834e6d = $(`<div id="html_84779ae0461e42db89035f075b834e6d" style="width: 100.0%; height: 100.0%;">Edad: 28 Femenino  (Clínica Las Condes)</div>`)[0];
-            popup_0adb2b36851746a3a70c54b147d4023c.setContent(html_84779ae0461e42db89035f075b834e6d);
+            var html_3418ad8ddd30453d8552c7d5a9f5baf2 = $(`<div id="html_3418ad8ddd30453d8552c7d5a9f5baf2" style="width: 100.0%; height: 100.0%;">Edad: 28 Femenino  (Clínica Las Condes)</div>`)[0];
+            popup_805d432648574635a4cfd4bbb88c6c80.setContent(html_3418ad8ddd30453d8552c7d5a9f5baf2);
         
 
-        marker_4d518b75284b48b48b9710e5ac425622.bindPopup(popup_0adb2b36851746a3a70c54b147d4023c)
+        marker_83143cf181d34995885cc2626a6d650b.bindPopup(popup_805d432648574635a4cfd4bbb88c6c80)
         ;
 
         
     
     
-            var marker_f2c50db3bd9e42bc8e3a22e47d2584a8 = L.marker(
+            var marker_c77b682270ab4074add86d1fd7e848c2 = L.marker(
                 [-33.4354421, -70.6766162],
                 {}
-            ).addTo(marker_cluster_21e8fe58789e40d2935dd934f9456622);
+            ).addTo(marker_cluster_869e3ea99adb47068e53042eb9948424);
         
     
-        var popup_7f06428885854fb5b977a2d2d44caecb = L.popup({"maxWidth": 90});
+            var icon_d6727199451a4c569b23507d36525969 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c77b682270ab4074add86d1fd7e848c2.setIcon(icon_d6727199451a4c569b23507d36525969);
+        
+    
+        var popup_e45928350cd144e5a836dadda5b48b9d = L.popup({"maxWidth": 90});
 
         
-            var html_5fbfaa02294c4ea087b90f56627645d8 = $(`<div id="html_5fbfaa02294c4ea087b90f56627645d8" style="width: 100.0%; height: 100.0%;">Edad: 21 Femenino  (Laboratorio Integramédica)</div>`)[0];
-            popup_7f06428885854fb5b977a2d2d44caecb.setContent(html_5fbfaa02294c4ea087b90f56627645d8);
+            var html_ee7abb577db143829f14782ed8820518 = $(`<div id="html_ee7abb577db143829f14782ed8820518" style="width: 100.0%; height: 100.0%;">Edad: 21 Femenino  (Laboratorio Integramédica)</div>`)[0];
+            popup_e45928350cd144e5a836dadda5b48b9d.setContent(html_ee7abb577db143829f14782ed8820518);
         
 
-        marker_f2c50db3bd9e42bc8e3a22e47d2584a8.bindPopup(popup_7f06428885854fb5b977a2d2d44caecb)
+        marker_c77b682270ab4074add86d1fd7e848c2.bindPopup(popup_e45928350cd144e5a836dadda5b48b9d)
         ;
 
         
     
     
-            var marker_bfba97d65f2f49b69df884fa9fef90c6 = L.marker(
+            var marker_cbd277aeb0154455bbb37fc7b77f9b84 = L.marker(
                 [-33.4354421, -70.6766162],
                 {}
-            ).addTo(marker_cluster_21e8fe58789e40d2935dd934f9456622);
+            ).addTo(marker_cluster_869e3ea99adb47068e53042eb9948424);
         
     
-        var popup_88c430e9a6f54514992b55be5b107b91 = L.popup({"maxWidth": 90});
+            var icon_7d6d44903bb943099ea3269c8d066daa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_cbd277aeb0154455bbb37fc7b77f9b84.setIcon(icon_7d6d44903bb943099ea3269c8d066daa);
+        
+    
+        var popup_eb2030d6cfbd4e6b8bfb8f247638327b = L.popup({"maxWidth": 90});
 
         
-            var html_8f51dbdad8b94366875fcf6f4a379a58 = $(`<div id="html_8f51dbdad8b94366875fcf6f4a379a58" style="width: 100.0%; height: 100.0%;">Edad: 35 Masculino  (Clínica Red Salud Santiago)</div>`)[0];
-            popup_88c430e9a6f54514992b55be5b107b91.setContent(html_8f51dbdad8b94366875fcf6f4a379a58);
+            var html_3251f617effc4a4aaf067ead7cbc8aaf = $(`<div id="html_3251f617effc4a4aaf067ead7cbc8aaf" style="width: 100.0%; height: 100.0%;">Edad: 35 Masculino  (Clínica Red Salud Santiago)</div>`)[0];
+            popup_eb2030d6cfbd4e6b8bfb8f247638327b.setContent(html_3251f617effc4a4aaf067ead7cbc8aaf);
         
 
-        marker_bfba97d65f2f49b69df884fa9fef90c6.bindPopup(popup_88c430e9a6f54514992b55be5b107b91)
+        marker_cbd277aeb0154455bbb37fc7b77f9b84.bindPopup(popup_eb2030d6cfbd4e6b8bfb8f247638327b)
         ;
 
         
     
     
-            var marker_d281340b5cb14361be0e0889bc151e6c = L.marker(
+            var marker_4c852de8ee9b4ca4b0a7c5d5663a7d19 = L.marker(
                 [-33.4354421, -70.6766162],
                 {}
-            ).addTo(marker_cluster_21e8fe58789e40d2935dd934f9456622);
+            ).addTo(marker_cluster_869e3ea99adb47068e53042eb9948424);
         
     
-        var popup_7d4fd8dbb9b142dea4b5a67b41b49ee4 = L.popup({"maxWidth": 90});
+            var icon_0ebf5b92a2fd4c7ba40c073b241b9e5e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4c852de8ee9b4ca4b0a7c5d5663a7d19.setIcon(icon_0ebf5b92a2fd4c7ba40c073b241b9e5e);
+        
+    
+        var popup_ced43c768c5144b89aa554c70c9834af = L.popup({"maxWidth": 90});
 
         
-            var html_d256ff1de71344f59df9aee671e4e8c2 = $(`<div id="html_d256ff1de71344f59df9aee671e4e8c2" style="width: 100.0%; height: 100.0%;">Edad: 50 Femenino  (Clínica Tabancura)</div>`)[0];
-            popup_7d4fd8dbb9b142dea4b5a67b41b49ee4.setContent(html_d256ff1de71344f59df9aee671e4e8c2);
+            var html_d7822298882e4cfb92274eba57fffd84 = $(`<div id="html_d7822298882e4cfb92274eba57fffd84" style="width: 100.0%; height: 100.0%;">Edad: 50 Femenino  (Clínica Tabancura)</div>`)[0];
+            popup_ced43c768c5144b89aa554c70c9834af.setContent(html_d7822298882e4cfb92274eba57fffd84);
         
 
-        marker_d281340b5cb14361be0e0889bc151e6c.bindPopup(popup_7d4fd8dbb9b142dea4b5a67b41b49ee4)
+        marker_4c852de8ee9b4ca4b0a7c5d5663a7d19.bindPopup(popup_ced43c768c5144b89aa554c70c9834af)
         ;
 
         
     
     
-            var marker_83b4e87e33b442ef9adb471ad9402f8c = L.marker(
+            var marker_4279788a1a8c44dd86c623a23dee9b95 = L.marker(
                 [-33.4354421, -70.6766162],
                 {}
-            ).addTo(marker_cluster_21e8fe58789e40d2935dd934f9456622);
+            ).addTo(marker_cluster_869e3ea99adb47068e53042eb9948424);
         
     
-        var popup_5200384c95c041ab8073ada0add1b4f8 = L.popup({"maxWidth": 90});
+            var icon_d20b362e231349d883dab4c0ccba47b1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4279788a1a8c44dd86c623a23dee9b95.setIcon(icon_d20b362e231349d883dab4c0ccba47b1);
+        
+    
+        var popup_30506da39f6a416580d0c6f7db352f6c = L.popup({"maxWidth": 90});
 
         
-            var html_efc944de6f00442c88c2d1ecf7602cf8 = $(`<div id="html_efc944de6f00442c88c2d1ecf7602cf8" style="width: 100.0%; height: 100.0%;">Edad: 31 Masculino  (Clínica U. de Los Andes)</div>`)[0];
-            popup_5200384c95c041ab8073ada0add1b4f8.setContent(html_efc944de6f00442c88c2d1ecf7602cf8);
+            var html_de950c5ae2854449a01e1d40396c137a = $(`<div id="html_de950c5ae2854449a01e1d40396c137a" style="width: 100.0%; height: 100.0%;">Edad: 31 Masculino  (Clínica U. de Los Andes)</div>`)[0];
+            popup_30506da39f6a416580d0c6f7db352f6c.setContent(html_de950c5ae2854449a01e1d40396c137a);
         
 
-        marker_83b4e87e33b442ef9adb471ad9402f8c.bindPopup(popup_5200384c95c041ab8073ada0add1b4f8)
+        marker_4279788a1a8c44dd86c623a23dee9b95.bindPopup(popup_30506da39f6a416580d0c6f7db352f6c)
         ;
 
         
     
     
-            var marker_fc3f65633cc64f98b7f9e62a6e6b0735 = L.marker(
+            var marker_9f315ee606b44fbdbdf189c26aef10db = L.marker(
                 [-33.4354421, -70.6766162],
                 {}
-            ).addTo(marker_cluster_21e8fe58789e40d2935dd934f9456622);
+            ).addTo(marker_cluster_869e3ea99adb47068e53042eb9948424);
         
     
-        var popup_69acc5dc3f86409ba7c47dc1f87931e5 = L.popup({"maxWidth": 90});
+            var icon_02f29ce5fdda47af885413273913136c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9f315ee606b44fbdbdf189c26aef10db.setIcon(icon_02f29ce5fdda47af885413273913136c);
+        
+    
+        var popup_3161fbfbb81b40d09ad11857b80122e5 = L.popup({"maxWidth": 90});
 
         
-            var html_ee8e5aea84784126b938a96305e4c868 = $(`<div id="html_ee8e5aea84784126b938a96305e4c868" style="width: 100.0%; height: 100.0%;">Edad: 47 Masculino  (Clínica Indisa)</div>`)[0];
-            popup_69acc5dc3f86409ba7c47dc1f87931e5.setContent(html_ee8e5aea84784126b938a96305e4c868);
+            var html_9e343f86cbb94ebcb455d12acea14b19 = $(`<div id="html_9e343f86cbb94ebcb455d12acea14b19" style="width: 100.0%; height: 100.0%;">Edad: 47 Masculino  (Clínica Indisa)</div>`)[0];
+            popup_3161fbfbb81b40d09ad11857b80122e5.setContent(html_9e343f86cbb94ebcb455d12acea14b19);
         
 
-        marker_fc3f65633cc64f98b7f9e62a6e6b0735.bindPopup(popup_69acc5dc3f86409ba7c47dc1f87931e5)
+        marker_9f315ee606b44fbdbdf189c26aef10db.bindPopup(popup_3161fbfbb81b40d09ad11857b80122e5)
         ;
 
         
     
     
-            var marker_f2504e74a7e744c8907da178ae0d329d = L.marker(
+            var marker_4c5b98a9f93a43909e9c88863dbacb88 = L.marker(
                 [-33.4354421, -70.6766162],
                 {}
-            ).addTo(marker_cluster_21e8fe58789e40d2935dd934f9456622);
+            ).addTo(marker_cluster_869e3ea99adb47068e53042eb9948424);
         
     
-        var popup_c751478526c140c0ae7ba0b3bf3e53fa = L.popup({"maxWidth": 90});
+            var icon_ec6912d7baaf409e9243bba7dd254d77 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4c5b98a9f93a43909e9c88863dbacb88.setIcon(icon_ec6912d7baaf409e9243bba7dd254d77);
+        
+    
+        var popup_0df03f1db8674582bb3eb910072ad5d0 = L.popup({"maxWidth": 90});
 
         
-            var html_5b10dd2167a84b9f810ac59688723a2b = $(`<div id="html_5b10dd2167a84b9f810ac59688723a2b" style="width: 100.0%; height: 100.0%;">Edad: 39 Masculino  (Red de Salud UC-Christus San Carlos de Apoquindo)</div>`)[0];
-            popup_c751478526c140c0ae7ba0b3bf3e53fa.setContent(html_5b10dd2167a84b9f810ac59688723a2b);
+            var html_c93a5dbe843745a19138786dcecc2993 = $(`<div id="html_c93a5dbe843745a19138786dcecc2993" style="width: 100.0%; height: 100.0%;">Edad: 39 Masculino  (Red de Salud UC-Christus San Carlos de Apoquindo)</div>`)[0];
+            popup_0df03f1db8674582bb3eb910072ad5d0.setContent(html_c93a5dbe843745a19138786dcecc2993);
         
 
-        marker_f2504e74a7e744c8907da178ae0d329d.bindPopup(popup_c751478526c140c0ae7ba0b3bf3e53fa)
+        marker_4c5b98a9f93a43909e9c88863dbacb88.bindPopup(popup_0df03f1db8674582bb3eb910072ad5d0)
         ;
 
         
     
     
-            var marker_0b6062660a4845c1ac8f253202a5dc8c = L.marker(
+            var marker_fd94f760d4af4cee89c47995d71a7a1e = L.marker(
                 [-33.4354421, -70.6766162],
                 {}
-            ).addTo(marker_cluster_21e8fe58789e40d2935dd934f9456622);
+            ).addTo(marker_cluster_869e3ea99adb47068e53042eb9948424);
         
     
-        var popup_5fdfb6e7da344cb58ac10219bdf3f7ad = L.popup({"maxWidth": 90});
+            var icon_d2f95ea6416d425085a5fd64df5c0cad = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_fd94f760d4af4cee89c47995d71a7a1e.setIcon(icon_d2f95ea6416d425085a5fd64df5c0cad);
+        
+    
+        var popup_1454121a481a485cb28f27f9b3187d87 = L.popup({"maxWidth": 90});
 
         
-            var html_b35a70051f8e438f82a130f6e17941e8 = $(`<div id="html_b35a70051f8e438f82a130f6e17941e8" style="width: 100.0%; height: 100.0%;">Edad: 37 Femenino  (Laboratorio Integramédica)</div>`)[0];
-            popup_5fdfb6e7da344cb58ac10219bdf3f7ad.setContent(html_b35a70051f8e438f82a130f6e17941e8);
+            var html_e2b502405c0b4eeb93a30607c98f3a04 = $(`<div id="html_e2b502405c0b4eeb93a30607c98f3a04" style="width: 100.0%; height: 100.0%;">Edad: 37 Femenino  (Laboratorio Integramédica)</div>`)[0];
+            popup_1454121a481a485cb28f27f9b3187d87.setContent(html_e2b502405c0b4eeb93a30607c98f3a04);
         
 
-        marker_0b6062660a4845c1ac8f253202a5dc8c.bindPopup(popup_5fdfb6e7da344cb58ac10219bdf3f7ad)
+        marker_fd94f760d4af4cee89c47995d71a7a1e.bindPopup(popup_1454121a481a485cb28f27f9b3187d87)
         ;
 
         
     
     
-            var marker_d02c2922753a457a9106b912edd88bd8 = L.marker(
+            var marker_b3875525e7a64366a5333ce42c88c50f = L.marker(
                 [-33.4354421, -70.6766162],
                 {}
-            ).addTo(marker_cluster_21e8fe58789e40d2935dd934f9456622);
+            ).addTo(marker_cluster_869e3ea99adb47068e53042eb9948424);
         
     
-        var popup_ba6398d7bfb04286bb6d9f71283dd536 = L.popup({"maxWidth": 90});
+            var icon_810c6b3e10c0473fac153897b6950207 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b3875525e7a64366a5333ce42c88c50f.setIcon(icon_810c6b3e10c0473fac153897b6950207);
+        
+    
+        var popup_0b77ad85b67645d89009356e20dface1 = L.popup({"maxWidth": 90});
 
         
-            var html_bbba9c4c487b49ee958c9c4f28773d39 = $(`<div id="html_bbba9c4c487b49ee958c9c4f28773d39" style="width: 100.0%; height: 100.0%;">Edad: 28 Masculino  (Pontificia Universidad Católica)</div>`)[0];
-            popup_ba6398d7bfb04286bb6d9f71283dd536.setContent(html_bbba9c4c487b49ee958c9c4f28773d39);
+            var html_b8bf86ac3f2e4061a8e1a7d0611d1a65 = $(`<div id="html_b8bf86ac3f2e4061a8e1a7d0611d1a65" style="width: 100.0%; height: 100.0%;">Edad: 28 Masculino  (Pontificia Universidad Católica)</div>`)[0];
+            popup_0b77ad85b67645d89009356e20dface1.setContent(html_b8bf86ac3f2e4061a8e1a7d0611d1a65);
         
 
-        marker_d02c2922753a457a9106b912edd88bd8.bindPopup(popup_ba6398d7bfb04286bb6d9f71283dd536)
+        marker_b3875525e7a64366a5333ce42c88c50f.bindPopup(popup_0b77ad85b67645d89009356e20dface1)
         ;
 
         
     
     
-            var marker_d67d52ecb9e64864a2ce45b46812dbbe = L.marker(
+            var marker_ea791296fd3c480a8698dfaed086d927 = L.marker(
                 [-33.4354421, -70.6766162],
                 {}
-            ).addTo(marker_cluster_21e8fe58789e40d2935dd934f9456622);
+            ).addTo(marker_cluster_869e3ea99adb47068e53042eb9948424);
         
     
-        var popup_f2249ba6439041d8945fd1761e6b68a2 = L.popup({"maxWidth": 90});
+            var icon_3a33239cb6934530a8dda289be45a72e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ea791296fd3c480a8698dfaed086d927.setIcon(icon_3a33239cb6934530a8dda289be45a72e);
+        
+    
+        var popup_ddf0d5acfd744cd4b5ceaafba67196dc = L.popup({"maxWidth": 90});
 
         
-            var html_4e95d76990194d53b9ca8d5b9066a0f6 = $(`<div id="html_4e95d76990194d53b9ca8d5b9066a0f6" style="width: 100.0%; height: 100.0%;">Edad: 29 Masculino  (Red de Salud UC-Christus San Carlos de Apoquindo)</div>`)[0];
-            popup_f2249ba6439041d8945fd1761e6b68a2.setContent(html_4e95d76990194d53b9ca8d5b9066a0f6);
+            var html_ae2fcf17b7174c4c9eae9b289e08572b = $(`<div id="html_ae2fcf17b7174c4c9eae9b289e08572b" style="width: 100.0%; height: 100.0%;">Edad: 29 Masculino  (Red de Salud UC-Christus San Carlos de Apoquindo)</div>`)[0];
+            popup_ddf0d5acfd744cd4b5ceaafba67196dc.setContent(html_ae2fcf17b7174c4c9eae9b289e08572b);
         
 
-        marker_d67d52ecb9e64864a2ce45b46812dbbe.bindPopup(popup_f2249ba6439041d8945fd1761e6b68a2)
+        marker_ea791296fd3c480a8698dfaed086d927.bindPopup(popup_ddf0d5acfd744cd4b5ceaafba67196dc)
         ;
 
         
     
     
-            var marker_10913b8e4c144dafb3ac7c0812d7e666 = L.marker(
+            var marker_79a29347316644fc851c779222e3ed90 = L.marker(
                 [-33.4354421, -70.6766162],
                 {}
-            ).addTo(marker_cluster_21e8fe58789e40d2935dd934f9456622);
+            ).addTo(marker_cluster_869e3ea99adb47068e53042eb9948424);
         
     
-        var popup_722dd33366d24eb9bf22454d5f86a26f = L.popup({"maxWidth": 90});
+            var icon_562bfa1139b546dd856c3afc8fd3fc43 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_79a29347316644fc851c779222e3ed90.setIcon(icon_562bfa1139b546dd856c3afc8fd3fc43);
+        
+    
+        var popup_beb5b3f5bffc4944ae4f1eda024ac88a = L.popup({"maxWidth": 90});
 
         
-            var html_5013d6a0f5c144058daa9481c43137b7 = $(`<div id="html_5013d6a0f5c144058daa9481c43137b7" style="width: 100.0%; height: 100.0%;">Edad: 28 Masculino  (Clínica U. de Los Andes)</div>`)[0];
-            popup_722dd33366d24eb9bf22454d5f86a26f.setContent(html_5013d6a0f5c144058daa9481c43137b7);
+            var html_8dcc5bfa5ed44aa5b299fa44c800138b = $(`<div id="html_8dcc5bfa5ed44aa5b299fa44c800138b" style="width: 100.0%; height: 100.0%;">Edad: 28 Masculino  (Clínica U. de Los Andes)</div>`)[0];
+            popup_beb5b3f5bffc4944ae4f1eda024ac88a.setContent(html_8dcc5bfa5ed44aa5b299fa44c800138b);
         
 
-        marker_10913b8e4c144dafb3ac7c0812d7e666.bindPopup(popup_722dd33366d24eb9bf22454d5f86a26f)
+        marker_79a29347316644fc851c779222e3ed90.bindPopup(popup_beb5b3f5bffc4944ae4f1eda024ac88a)
         ;
 
         
     
     
-            var marker_ff61f9f893944ec1bfea5fe3e86957bc = L.marker(
+            var marker_d6851c28555648ab8d941559905cf913 = L.marker(
                 [-33.4354421, -70.6766162],
                 {}
-            ).addTo(marker_cluster_21e8fe58789e40d2935dd934f9456622);
+            ).addTo(marker_cluster_869e3ea99adb47068e53042eb9948424);
         
     
-        var popup_0e9db942d6954796b73675c9469c18b5 = L.popup({"maxWidth": 90});
+            var icon_339fa26c201c48c6b9a5d08db5d3335c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d6851c28555648ab8d941559905cf913.setIcon(icon_339fa26c201c48c6b9a5d08db5d3335c);
+        
+    
+        var popup_c3af56f7e16341aeae94972404884e2a = L.popup({"maxWidth": 90});
 
         
-            var html_f19d874b549f4bcb9cf457490222f7f4 = $(`<div id="html_f19d874b549f4bcb9cf457490222f7f4" style="width: 100.0%; height: 100.0%;">Edad: 53 Masculino  (Clínica Indisa)</div>`)[0];
-            popup_0e9db942d6954796b73675c9469c18b5.setContent(html_f19d874b549f4bcb9cf457490222f7f4);
+            var html_c685dde0e3ab4003a0abb124ed699112 = $(`<div id="html_c685dde0e3ab4003a0abb124ed699112" style="width: 100.0%; height: 100.0%;">Edad: 53 Masculino  (Clínica Indisa)</div>`)[0];
+            popup_c3af56f7e16341aeae94972404884e2a.setContent(html_c685dde0e3ab4003a0abb124ed699112);
         
 
-        marker_ff61f9f893944ec1bfea5fe3e86957bc.bindPopup(popup_0e9db942d6954796b73675c9469c18b5)
+        marker_d6851c28555648ab8d941559905cf913.bindPopup(popup_c3af56f7e16341aeae94972404884e2a)
         ;
 
         
     
     
-            var marker_226d2b11bbaa47c38ce45e9c6f5ef3e7 = L.marker(
+            var marker_b7b1a16973f04203b9448f35f854c47c = L.marker(
                 [-33.4354421, -70.6766162],
                 {}
-            ).addTo(marker_cluster_21e8fe58789e40d2935dd934f9456622);
+            ).addTo(marker_cluster_869e3ea99adb47068e53042eb9948424);
         
     
-        var popup_e95b6905b6124f9d82de13268cc47065 = L.popup({"maxWidth": 90});
+            var icon_0889441fb4a74f97b137650388a27491 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b7b1a16973f04203b9448f35f854c47c.setIcon(icon_0889441fb4a74f97b137650388a27491);
+        
+    
+        var popup_2856781c02ba48cc92666851fd9451d1 = L.popup({"maxWidth": 90});
 
         
-            var html_0143b4265c2f4f95b1fe8e3bb3ac7abd = $(`<div id="html_0143b4265c2f4f95b1fe8e3bb3ac7abd" style="width: 100.0%; height: 100.0%;">Edad: 38 Masculino  (Laboratorio Integramédica)</div>`)[0];
-            popup_e95b6905b6124f9d82de13268cc47065.setContent(html_0143b4265c2f4f95b1fe8e3bb3ac7abd);
+            var html_3b65377e0e2f4d8eb86ea351193239d3 = $(`<div id="html_3b65377e0e2f4d8eb86ea351193239d3" style="width: 100.0%; height: 100.0%;">Edad: 38 Masculino  (Laboratorio Integramédica)</div>`)[0];
+            popup_2856781c02ba48cc92666851fd9451d1.setContent(html_3b65377e0e2f4d8eb86ea351193239d3);
         
 
-        marker_226d2b11bbaa47c38ce45e9c6f5ef3e7.bindPopup(popup_e95b6905b6124f9d82de13268cc47065)
+        marker_b7b1a16973f04203b9448f35f854c47c.bindPopup(popup_2856781c02ba48cc92666851fd9451d1)
         ;
 
         
     
     
-            var marker_09cd10f4112e4e56834370351e3ecc08 = L.marker(
+            var marker_01b543710222492caa3de45f592b8566 = L.marker(
                 [-33.4354421, -70.6766162],
                 {}
-            ).addTo(marker_cluster_21e8fe58789e40d2935dd934f9456622);
+            ).addTo(marker_cluster_869e3ea99adb47068e53042eb9948424);
         
     
-        var popup_41f828a6132f4db3b8484b7f361d72b3 = L.popup({"maxWidth": 90});
+            var icon_dc70214822cd4961a92751c3650ba5c9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_01b543710222492caa3de45f592b8566.setIcon(icon_dc70214822cd4961a92751c3650ba5c9);
+        
+    
+        var popup_fea9a1e38b3347c6be8bc2223ea679c9 = L.popup({"maxWidth": 90});
 
         
-            var html_5638285331734404a7de9f6a0555e350 = $(`<div id="html_5638285331734404a7de9f6a0555e350" style="width: 100.0%; height: 100.0%;">Edad: 55 Femenino  (Laboratorio Bionet)</div>`)[0];
-            popup_41f828a6132f4db3b8484b7f361d72b3.setContent(html_5638285331734404a7de9f6a0555e350);
+            var html_9faebfde989d4650b268504061815fef = $(`<div id="html_9faebfde989d4650b268504061815fef" style="width: 100.0%; height: 100.0%;">Edad: 55 Femenino  (Laboratorio Bionet)</div>`)[0];
+            popup_fea9a1e38b3347c6be8bc2223ea679c9.setContent(html_9faebfde989d4650b268504061815fef);
         
 
-        marker_09cd10f4112e4e56834370351e3ecc08.bindPopup(popup_41f828a6132f4db3b8484b7f361d72b3)
+        marker_01b543710222492caa3de45f592b8566.bindPopup(popup_fea9a1e38b3347c6be8bc2223ea679c9)
         ;
 
         
     
     
-            var marker_3cf322b07f8a48cc8cf858c3ff5efff7 = L.marker(
+            var marker_6756fc440d584ebaa25d3a31d0ea25a8 = L.marker(
                 [-33.4354421, -70.6766162],
                 {}
-            ).addTo(marker_cluster_21e8fe58789e40d2935dd934f9456622);
+            ).addTo(marker_cluster_869e3ea99adb47068e53042eb9948424);
         
     
-        var popup_41927ae123bf460882f35102534fcefa = L.popup({"maxWidth": 90});
+            var icon_111e75f9b4514908aa6d503b277bf481 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6756fc440d584ebaa25d3a31d0ea25a8.setIcon(icon_111e75f9b4514908aa6d503b277bf481);
+        
+    
+        var popup_b11f1b925e144157b468b97183381e4a = L.popup({"maxWidth": 90});
 
         
-            var html_6f11ef9bf5ac4b608d31b6af9e5bc477 = $(`<div id="html_6f11ef9bf5ac4b608d31b6af9e5bc477" style="width: 100.0%; height: 100.0%;">Edad: 51 Femenino  (Laboratorio Integramédica)</div>`)[0];
-            popup_41927ae123bf460882f35102534fcefa.setContent(html_6f11ef9bf5ac4b608d31b6af9e5bc477);
+            var html_fcd9a303ff6845019fc5e8b18d5629ae = $(`<div id="html_fcd9a303ff6845019fc5e8b18d5629ae" style="width: 100.0%; height: 100.0%;">Edad: 51 Femenino  (Laboratorio Integramédica)</div>`)[0];
+            popup_b11f1b925e144157b468b97183381e4a.setContent(html_fcd9a303ff6845019fc5e8b18d5629ae);
         
 
-        marker_3cf322b07f8a48cc8cf858c3ff5efff7.bindPopup(popup_41927ae123bf460882f35102534fcefa)
+        marker_6756fc440d584ebaa25d3a31d0ea25a8.bindPopup(popup_b11f1b925e144157b468b97183381e4a)
         ;
 
         
     
     
-            var marker_900313c6786243a28d00ecd9acd787c2 = L.marker(
+            var marker_04ed0b915ed1456ab6d580ce847aaf05 = L.marker(
                 [-33.4354421, -70.6766162],
                 {}
-            ).addTo(marker_cluster_21e8fe58789e40d2935dd934f9456622);
+            ).addTo(marker_cluster_869e3ea99adb47068e53042eb9948424);
         
     
-        var popup_e3b346a2f50d40d28972d716e8229494 = L.popup({"maxWidth": 90});
+            var icon_cefdb219132e4c4e8ef7284e15d0d8c0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_04ed0b915ed1456ab6d580ce847aaf05.setIcon(icon_cefdb219132e4c4e8ef7284e15d0d8c0);
+        
+    
+        var popup_22a3238c6a604e3ca676ec993590ebd8 = L.popup({"maxWidth": 90});
 
         
-            var html_d1ff84a5ef644b50b052fbf974c58040 = $(`<div id="html_d1ff84a5ef644b50b052fbf974c58040" style="width: 100.0%; height: 100.0%;">Edad: 23 Femenino  (Clínica Santa María)</div>`)[0];
-            popup_e3b346a2f50d40d28972d716e8229494.setContent(html_d1ff84a5ef644b50b052fbf974c58040);
+            var html_bb239eb9276e470d9d64f6e13caa3793 = $(`<div id="html_bb239eb9276e470d9d64f6e13caa3793" style="width: 100.0%; height: 100.0%;">Edad: 23 Femenino  (Clínica Santa María)</div>`)[0];
+            popup_22a3238c6a604e3ca676ec993590ebd8.setContent(html_bb239eb9276e470d9d64f6e13caa3793);
         
 
-        marker_900313c6786243a28d00ecd9acd787c2.bindPopup(popup_e3b346a2f50d40d28972d716e8229494)
+        marker_04ed0b915ed1456ab6d580ce847aaf05.bindPopup(popup_22a3238c6a604e3ca676ec993590ebd8)
         ;
 
         
     
     
-            var marker_c70352bca33e4cb1bebf10ad73e94832 = L.marker(
+            var marker_225de97b402647f8bd43bf21683d372f = L.marker(
                 [-33.4354421, -70.6766162],
                 {}
-            ).addTo(marker_cluster_21e8fe58789e40d2935dd934f9456622);
+            ).addTo(marker_cluster_869e3ea99adb47068e53042eb9948424);
         
     
-        var popup_d886985f083b46ba98c73e7c110f0ab8 = L.popup({"maxWidth": 90});
+            var icon_845f588223d84037a6ec240a48205727 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_225de97b402647f8bd43bf21683d372f.setIcon(icon_845f588223d84037a6ec240a48205727);
+        
+    
+        var popup_675d95ffc6314b669c6f839e1dc7b86b = L.popup({"maxWidth": 90});
 
         
-            var html_01c1a7f54a784aa0b054b2f2e3e2514d = $(`<div id="html_01c1a7f54a784aa0b054b2f2e3e2514d" style="width: 100.0%; height: 100.0%;">Edad: 36 Masculino  (Clínica Las Condes)</div>`)[0];
-            popup_d886985f083b46ba98c73e7c110f0ab8.setContent(html_01c1a7f54a784aa0b054b2f2e3e2514d);
+            var html_ca9a7582883343bbbdf118603d745ea0 = $(`<div id="html_ca9a7582883343bbbdf118603d745ea0" style="width: 100.0%; height: 100.0%;">Edad: 36 Masculino  (Clínica Las Condes)</div>`)[0];
+            popup_675d95ffc6314b669c6f839e1dc7b86b.setContent(html_ca9a7582883343bbbdf118603d745ea0);
         
 
-        marker_c70352bca33e4cb1bebf10ad73e94832.bindPopup(popup_d886985f083b46ba98c73e7c110f0ab8)
+        marker_225de97b402647f8bd43bf21683d372f.bindPopup(popup_675d95ffc6314b669c6f839e1dc7b86b)
         ;
 
         
     
     
-            var marker_72789d4da6124fc598adc70af18f2c75 = L.marker(
+            var marker_892710d78c784bd987c67c5dc459ee42 = L.marker(
                 [-33.4354421, -70.6766162],
                 {}
-            ).addTo(marker_cluster_21e8fe58789e40d2935dd934f9456622);
+            ).addTo(marker_cluster_869e3ea99adb47068e53042eb9948424);
         
     
-        var popup_df659b1330784088a1247ab683edc548 = L.popup({"maxWidth": 90});
+            var icon_8f95a2a8fa48437bae46e86dafc110dd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_892710d78c784bd987c67c5dc459ee42.setIcon(icon_8f95a2a8fa48437bae46e86dafc110dd);
+        
+    
+        var popup_772006151ed84073abf475922a7bcfbd = L.popup({"maxWidth": 90});
 
         
-            var html_f1b5044b5c404f599c526e9fa0a5d62d = $(`<div id="html_f1b5044b5c404f599c526e9fa0a5d62d" style="width: 100.0%; height: 100.0%;">Edad: 58 Femenino  (Clínica Las Condes)</div>`)[0];
-            popup_df659b1330784088a1247ab683edc548.setContent(html_f1b5044b5c404f599c526e9fa0a5d62d);
+            var html_e5f1f9e471da49bda858a2e30d1e4949 = $(`<div id="html_e5f1f9e471da49bda858a2e30d1e4949" style="width: 100.0%; height: 100.0%;">Edad: 58 Femenino  (Clínica Las Condes)</div>`)[0];
+            popup_772006151ed84073abf475922a7bcfbd.setContent(html_e5f1f9e471da49bda858a2e30d1e4949);
         
 
-        marker_72789d4da6124fc598adc70af18f2c75.bindPopup(popup_df659b1330784088a1247ab683edc548)
+        marker_892710d78c784bd987c67c5dc459ee42.bindPopup(popup_772006151ed84073abf475922a7bcfbd)
         ;
 
         
     
     
-            var marker_1aa821be64cb471e801891f24605e2cb = L.marker(
+            var marker_728d4cbd8d394897a5c60c7e3ff2da7b = L.marker(
                 [-36.1313356, -71.8217821],
                 {}
-            ).addTo(marker_cluster_21e8fe58789e40d2935dd934f9456622);
+            ).addTo(marker_cluster_869e3ea99adb47068e53042eb9948424);
         
     
-        var popup_0082bba7a1c54eefa694454fec8d1a10 = L.popup({"maxWidth": 90});
+            var icon_b498c984865d4cedacadbdd5156f0b31 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_728d4cbd8d394897a5c60c7e3ff2da7b.setIcon(icon_b498c984865d4cedacadbdd5156f0b31);
+        
+    
+        var popup_3f4675a3d9184ddca07df7d0eeca948b = L.popup({"maxWidth": 90});
 
         
-            var html_41e6623eba094397a4f8feb07e8819c0 = $(`<div id="html_41e6623eba094397a4f8feb07e8819c0" style="width: 100.0%; height: 100.0%;">Edad: 33 Masculino  (Hospital de Talca)</div>`)[0];
-            popup_0082bba7a1c54eefa694454fec8d1a10.setContent(html_41e6623eba094397a4f8feb07e8819c0);
+            var html_3edc81d82b5d4ae8b38027dac7ed6e7f = $(`<div id="html_3edc81d82b5d4ae8b38027dac7ed6e7f" style="width: 100.0%; height: 100.0%;">Edad: 33 Masculino  (Hospital de Talca)</div>`)[0];
+            popup_3f4675a3d9184ddca07df7d0eeca948b.setContent(html_3edc81d82b5d4ae8b38027dac7ed6e7f);
         
 
-        marker_1aa821be64cb471e801891f24605e2cb.bindPopup(popup_0082bba7a1c54eefa694454fec8d1a10)
+        marker_728d4cbd8d394897a5c60c7e3ff2da7b.bindPopup(popup_3f4675a3d9184ddca07df7d0eeca948b)
         ;
 
         
     
     
-            var marker_f56a19dc821d400b9ec8348404ba7c64 = L.marker(
+            var marker_24431ffa7132412b8a8a5ab12ea75d0e = L.marker(
                 [-36.1313356, -71.8217821],
                 {}
-            ).addTo(marker_cluster_21e8fe58789e40d2935dd934f9456622);
+            ).addTo(marker_cluster_869e3ea99adb47068e53042eb9948424);
         
     
-        var popup_37cab99153f54829a5e5ac8ec2c8f428 = L.popup({"maxWidth": 90});
+            var icon_00726e229dbe4cd480df036675f9416f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_24431ffa7132412b8a8a5ab12ea75d0e.setIcon(icon_00726e229dbe4cd480df036675f9416f);
+        
+    
+        var popup_d4f841ed26a94b3aaa4de00d9205e886 = L.popup({"maxWidth": 90});
 
         
-            var html_2837b71e73ef4e658d1854d7f6f14ab3 = $(`<div id="html_2837b71e73ef4e658d1854d7f6f14ab3" style="width: 100.0%; height: 100.0%;">Edad: 33 Femenino  (Hospital de Talca)</div>`)[0];
-            popup_37cab99153f54829a5e5ac8ec2c8f428.setContent(html_2837b71e73ef4e658d1854d7f6f14ab3);
+            var html_5c2577dbff234c05b531a765452477f7 = $(`<div id="html_5c2577dbff234c05b531a765452477f7" style="width: 100.0%; height: 100.0%;">Edad: 33 Femenino  (Hospital de Talca)</div>`)[0];
+            popup_d4f841ed26a94b3aaa4de00d9205e886.setContent(html_5c2577dbff234c05b531a765452477f7);
         
 
-        marker_f56a19dc821d400b9ec8348404ba7c64.bindPopup(popup_37cab99153f54829a5e5ac8ec2c8f428)
+        marker_24431ffa7132412b8a8a5ab12ea75d0e.bindPopup(popup_d4f841ed26a94b3aaa4de00d9205e886)
         ;
 
         
     
     
-            var marker_573cbf8c9a4843feafd4462e60c0d105 = L.marker(
+            var marker_9b119cc2631b482c94c9cb491db2ec2a = L.marker(
                 [-36.1313356, -71.8217821],
                 {}
-            ).addTo(marker_cluster_21e8fe58789e40d2935dd934f9456622);
+            ).addTo(marker_cluster_869e3ea99adb47068e53042eb9948424);
         
     
-        var popup_e89d3523f34b4a7891b3d3b96b6b50e0 = L.popup({"maxWidth": 90});
+            var icon_b4530911e4dd475b93c4ab37fdd22678 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9b119cc2631b482c94c9cb491db2ec2a.setIcon(icon_b4530911e4dd475b93c4ab37fdd22678);
+        
+    
+        var popup_4e0186ddebd147cbb89affe5c24f18b4 = L.popup({"maxWidth": 90});
 
         
-            var html_959ac84233794f88a386f20bc2e5c630 = $(`<div id="html_959ac84233794f88a386f20bc2e5c630" style="width: 100.0%; height: 100.0%;">Edad: 39 Masculino  (Hospital de Talca)</div>`)[0];
-            popup_e89d3523f34b4a7891b3d3b96b6b50e0.setContent(html_959ac84233794f88a386f20bc2e5c630);
+            var html_f4a1b70e0fdb47fd984a485fcdca0480 = $(`<div id="html_f4a1b70e0fdb47fd984a485fcdca0480" style="width: 100.0%; height: 100.0%;">Edad: 39 Masculino  (Hospital de Talca)</div>`)[0];
+            popup_4e0186ddebd147cbb89affe5c24f18b4.setContent(html_f4a1b70e0fdb47fd984a485fcdca0480);
         
 
-        marker_573cbf8c9a4843feafd4462e60c0d105.bindPopup(popup_e89d3523f34b4a7891b3d3b96b6b50e0)
+        marker_9b119cc2631b482c94c9cb491db2ec2a.bindPopup(popup_4e0186ddebd147cbb89affe5c24f18b4)
         ;
 
         
     
     
-            var marker_329e522987bf45d8836757f31b6f92d2 = L.marker(
+            var marker_fc75bd1f8c3e4f67a3f5b0561849f342 = L.marker(
                 [-36.1313356, -71.8217821],
                 {}
-            ).addTo(marker_cluster_21e8fe58789e40d2935dd934f9456622);
+            ).addTo(marker_cluster_869e3ea99adb47068e53042eb9948424);
         
     
-        var popup_3cbaf995043c41ff8f37052dd61d8118 = L.popup({"maxWidth": 90});
+            var icon_24fe9b1e310f47f0bbf54c08e801844f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_fc75bd1f8c3e4f67a3f5b0561849f342.setIcon(icon_24fe9b1e310f47f0bbf54c08e801844f);
+        
+    
+        var popup_6d17c56c5e52420e8b11114df58d2309 = L.popup({"maxWidth": 90});
 
         
-            var html_27aa7ccc9a3248d08a84f9dc6ec76ef8 = $(`<div id="html_27aa7ccc9a3248d08a84f9dc6ec76ef8" style="width: 100.0%; height: 100.0%;">Edad: 2 Femenino  (Hospital de Talca)</div>`)[0];
-            popup_3cbaf995043c41ff8f37052dd61d8118.setContent(html_27aa7ccc9a3248d08a84f9dc6ec76ef8);
+            var html_dff1f15378ab46f8ae710e2107846f4d = $(`<div id="html_dff1f15378ab46f8ae710e2107846f4d" style="width: 100.0%; height: 100.0%;">Edad: 2 Femenino  (Hospital de Talca)</div>`)[0];
+            popup_6d17c56c5e52420e8b11114df58d2309.setContent(html_dff1f15378ab46f8ae710e2107846f4d);
         
 
-        marker_329e522987bf45d8836757f31b6f92d2.bindPopup(popup_3cbaf995043c41ff8f37052dd61d8118)
+        marker_fc75bd1f8c3e4f67a3f5b0561849f342.bindPopup(popup_6d17c56c5e52420e8b11114df58d2309)
         ;
 
         
     
     
-            var marker_793e6c535d6a41aaad9093f7ab804f99 = L.marker(
+            var marker_bc8d5a05e482431eaf27e9b88297c688 = L.marker(
                 [-36.1313356, -71.8217821],
                 {}
-            ).addTo(marker_cluster_21e8fe58789e40d2935dd934f9456622);
+            ).addTo(marker_cluster_869e3ea99adb47068e53042eb9948424);
         
     
-        var popup_851e236539dd4568ac23bcb1c228e2e8 = L.popup({"maxWidth": 90});
+            var icon_f91dbdb5873f45a7935f423cb08b16ca = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_bc8d5a05e482431eaf27e9b88297c688.setIcon(icon_f91dbdb5873f45a7935f423cb08b16ca);
+        
+    
+        var popup_35defe7e405942e9b7f88f65489c0ee9 = L.popup({"maxWidth": 90});
 
         
-            var html_4bbf5fca6aca4e40999c4c76b9f16a07 = $(`<div id="html_4bbf5fca6aca4e40999c4c76b9f16a07" style="width: 100.0%; height: 100.0%;">Edad: 21 Masculino  (Hospital de Talca)</div>`)[0];
-            popup_851e236539dd4568ac23bcb1c228e2e8.setContent(html_4bbf5fca6aca4e40999c4c76b9f16a07);
+            var html_6c88f9a5cca84d02abd36745ff06a430 = $(`<div id="html_6c88f9a5cca84d02abd36745ff06a430" style="width: 100.0%; height: 100.0%;">Edad: 21 Masculino  (Hospital de Talca)</div>`)[0];
+            popup_35defe7e405942e9b7f88f65489c0ee9.setContent(html_6c88f9a5cca84d02abd36745ff06a430);
         
 
-        marker_793e6c535d6a41aaad9093f7ab804f99.bindPopup(popup_851e236539dd4568ac23bcb1c228e2e8)
+        marker_bc8d5a05e482431eaf27e9b88297c688.bindPopup(popup_35defe7e405942e9b7f88f65489c0ee9)
         ;
 
         
     
     
-            var marker_fbd0fcab5f9945cdb0c68c0bdd0ec965 = L.marker(
+            var marker_26b1ffe90d66411b9fc6a2d53a4d5cd2 = L.marker(
                 [-36.1313356, -71.8217821],
                 {}
-            ).addTo(marker_cluster_21e8fe58789e40d2935dd934f9456622);
+            ).addTo(marker_cluster_869e3ea99adb47068e53042eb9948424);
         
     
-        var popup_4d800e56de684c48988f35d552b9e051 = L.popup({"maxWidth": 90});
+            var icon_b014ed559c7b4b32a7fe52f19e7188a6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_26b1ffe90d66411b9fc6a2d53a4d5cd2.setIcon(icon_b014ed559c7b4b32a7fe52f19e7188a6);
+        
+    
+        var popup_3639d83594794225ba1d9894d32ddae0 = L.popup({"maxWidth": 90});
 
         
-            var html_a6e9249086d846a49a0bf1cf2ced072a = $(`<div id="html_a6e9249086d846a49a0bf1cf2ced072a" style="width: 100.0%; height: 100.0%;">Edad: 24 Femenino  (Hospital de Talca)</div>`)[0];
-            popup_4d800e56de684c48988f35d552b9e051.setContent(html_a6e9249086d846a49a0bf1cf2ced072a);
+            var html_85903ae198d7411d82f6f1e3d2cdc1e5 = $(`<div id="html_85903ae198d7411d82f6f1e3d2cdc1e5" style="width: 100.0%; height: 100.0%;">Edad: 24 Femenino  (Hospital de Talca)</div>`)[0];
+            popup_3639d83594794225ba1d9894d32ddae0.setContent(html_85903ae198d7411d82f6f1e3d2cdc1e5);
         
 
-        marker_fbd0fcab5f9945cdb0c68c0bdd0ec965.bindPopup(popup_4d800e56de684c48988f35d552b9e051)
+        marker_26b1ffe90d66411b9fc6a2d53a4d5cd2.bindPopup(popup_3639d83594794225ba1d9894d32ddae0)
         ;
 
         
     
     
-            var marker_1a3a45de652640b3809b71e79dd73bf3 = L.marker(
+            var marker_b8b9c429e84047c2ac4f61e0ad0eff74 = L.marker(
                 [-36.1313356, -71.8217821],
                 {}
-            ).addTo(marker_cluster_21e8fe58789e40d2935dd934f9456622);
+            ).addTo(marker_cluster_869e3ea99adb47068e53042eb9948424);
         
     
-        var popup_527f64af55e8412ea3ee3df6c91412da = L.popup({"maxWidth": 90});
+            var icon_f76f679be981488d88c904d8265b64fb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b8b9c429e84047c2ac4f61e0ad0eff74.setIcon(icon_f76f679be981488d88c904d8265b64fb);
+        
+    
+        var popup_27d442ce248f4b3d9a8d6c3da31bd417 = L.popup({"maxWidth": 90});
 
         
-            var html_f5da245f213a44588244f246e4e4cf4a = $(`<div id="html_f5da245f213a44588244f246e4e4cf4a" style="width: 100.0%; height: 100.0%;">Edad: 29 Masculino  (Hospital de Curicó)</div>`)[0];
-            popup_527f64af55e8412ea3ee3df6c91412da.setContent(html_f5da245f213a44588244f246e4e4cf4a);
+            var html_faeff6457e4745be86adfce851aa8d3a = $(`<div id="html_faeff6457e4745be86adfce851aa8d3a" style="width: 100.0%; height: 100.0%;">Edad: 29 Masculino  (Hospital de Curicó)</div>`)[0];
+            popup_27d442ce248f4b3d9a8d6c3da31bd417.setContent(html_faeff6457e4745be86adfce851aa8d3a);
         
 
-        marker_1a3a45de652640b3809b71e79dd73bf3.bindPopup(popup_527f64af55e8412ea3ee3df6c91412da)
+        marker_b8b9c429e84047c2ac4f61e0ad0eff74.bindPopup(popup_27d442ce248f4b3d9a8d6c3da31bd417)
         ;
 
         
     
     
-            var marker_260b7ca82eef46ddaa2eb89eecafc97d = L.marker(
+            var marker_ac3fa4b018e040b6a32b794c4a9e2660 = L.marker(
                 [-36.1313356, -71.8217821],
                 {}
-            ).addTo(marker_cluster_21e8fe58789e40d2935dd934f9456622);
+            ).addTo(marker_cluster_869e3ea99adb47068e53042eb9948424);
         
     
-        var popup_0aa67b562ad74f8885a759134bae08fb = L.popup({"maxWidth": 90});
+            var icon_46f73f5a64ae4d98a906c8861d0d5586 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ac3fa4b018e040b6a32b794c4a9e2660.setIcon(icon_46f73f5a64ae4d98a906c8861d0d5586);
+        
+    
+        var popup_339f2ccbbf894c5a8e8920af1f425d47 = L.popup({"maxWidth": 90});
 
         
-            var html_8ccf6504b63543f98eedc64b62773719 = $(`<div id="html_8ccf6504b63543f98eedc64b62773719" style="width: 100.0%; height: 100.0%;">Edad: 38 Femenino  (Hospital de Talca)</div>`)[0];
-            popup_0aa67b562ad74f8885a759134bae08fb.setContent(html_8ccf6504b63543f98eedc64b62773719);
+            var html_238bfcc8480b46adb9ccac784c338f61 = $(`<div id="html_238bfcc8480b46adb9ccac784c338f61" style="width: 100.0%; height: 100.0%;">Edad: 38 Femenino  (Hospital de Talca)</div>`)[0];
+            popup_339f2ccbbf894c5a8e8920af1f425d47.setContent(html_238bfcc8480b46adb9ccac784c338f61);
         
 
-        marker_260b7ca82eef46ddaa2eb89eecafc97d.bindPopup(popup_0aa67b562ad74f8885a759134bae08fb)
+        marker_ac3fa4b018e040b6a32b794c4a9e2660.bindPopup(popup_339f2ccbbf894c5a8e8920af1f425d47)
         ;
 
         
     
     
-            var marker_615d05ee61fc4484b11d5074c6519e5d = L.marker(
+            var marker_b2e1c5ea6dd9489f888e5c324d6cc83d = L.marker(
                 [-36.1313356, -71.8217821],
                 {}
-            ).addTo(marker_cluster_21e8fe58789e40d2935dd934f9456622);
+            ).addTo(marker_cluster_869e3ea99adb47068e53042eb9948424);
         
     
-        var popup_c239c69622a64edf8b74de37e2bf5307 = L.popup({"maxWidth": 90});
+            var icon_40f3416ea382499f9303d87fd8a96713 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b2e1c5ea6dd9489f888e5c324d6cc83d.setIcon(icon_40f3416ea382499f9303d87fd8a96713);
+        
+    
+        var popup_5c8d02d60af64ebd89b2323bf629b333 = L.popup({"maxWidth": 90});
 
         
-            var html_3aa88fea2aac41b1b33af8839da33268 = $(`<div id="html_3aa88fea2aac41b1b33af8839da33268" style="width: 100.0%; height: 100.0%;">Edad: 53 Masculino  (Hospital de Talca)</div>`)[0];
-            popup_c239c69622a64edf8b74de37e2bf5307.setContent(html_3aa88fea2aac41b1b33af8839da33268);
+            var html_64a7d8f40bf644dd9af2c7e3221f91a5 = $(`<div id="html_64a7d8f40bf644dd9af2c7e3221f91a5" style="width: 100.0%; height: 100.0%;">Edad: 53 Masculino  (Hospital de Talca)</div>`)[0];
+            popup_5c8d02d60af64ebd89b2323bf629b333.setContent(html_64a7d8f40bf644dd9af2c7e3221f91a5);
         
 
-        marker_615d05ee61fc4484b11d5074c6519e5d.bindPopup(popup_c239c69622a64edf8b74de37e2bf5307)
+        marker_b2e1c5ea6dd9489f888e5c324d6cc83d.bindPopup(popup_5c8d02d60af64ebd89b2323bf629b333)
         ;
 
         
     
     
-            var marker_25482cb1784f4a6abac00f8229e443ca = L.marker(
+            var marker_0b2ac4fe976742efbd4aa86f23c41662 = L.marker(
                 [-36.2790465, -72.5544152],
                 {}
-            ).addTo(marker_cluster_21e8fe58789e40d2935dd934f9456622);
+            ).addTo(marker_cluster_869e3ea99adb47068e53042eb9948424);
         
     
-        var popup_ad60a534721745728b8cfcb72c4ef937 = L.popup({"maxWidth": 90});
+            var icon_c708cb50f2a548049fe63faf34075572 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_0b2ac4fe976742efbd4aa86f23c41662.setIcon(icon_c708cb50f2a548049fe63faf34075572);
+        
+    
+        var popup_ef9c1b2a56ee4fc8ba7dc248ab1ad1a1 = L.popup({"maxWidth": 90});
 
         
-            var html_c2d454e6b5d947b1bc1455a0bdb4bfe4 = $(`<div id="html_c2d454e6b5d947b1bc1455a0bdb4bfe4" style="width: 100.0%; height: 100.0%;">Edad: 29 Masculino  (Clínica de Chillán)</div>`)[0];
-            popup_ad60a534721745728b8cfcb72c4ef937.setContent(html_c2d454e6b5d947b1bc1455a0bdb4bfe4);
+            var html_dced8b3e1f6341d39fc2979155afe039 = $(`<div id="html_dced8b3e1f6341d39fc2979155afe039" style="width: 100.0%; height: 100.0%;">Edad: 29 Masculino  (Clínica de Chillán)</div>`)[0];
+            popup_ef9c1b2a56ee4fc8ba7dc248ab1ad1a1.setContent(html_dced8b3e1f6341d39fc2979155afe039);
         
 
-        marker_25482cb1784f4a6abac00f8229e443ca.bindPopup(popup_ad60a534721745728b8cfcb72c4ef937)
+        marker_0b2ac4fe976742efbd4aa86f23c41662.bindPopup(popup_ef9c1b2a56ee4fc8ba7dc248ab1ad1a1)
         ;
 
         
     
     
-            var marker_f8f3b88e169641299bf7d94e740b5df0 = L.marker(
+            var marker_b1609327a1cb42aa9c0a9d2d5e90143c = L.marker(
                 [-36.2790465, -72.5544152],
                 {}
-            ).addTo(marker_cluster_21e8fe58789e40d2935dd934f9456622);
+            ).addTo(marker_cluster_869e3ea99adb47068e53042eb9948424);
         
     
-        var popup_13342408da594f7b9d96ca5d850d9753 = L.popup({"maxWidth": 90});
+            var icon_a30bde28aa2147aab3511bee1f1bc954 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b1609327a1cb42aa9c0a9d2d5e90143c.setIcon(icon_a30bde28aa2147aab3511bee1f1bc954);
+        
+    
+        var popup_3281659b411c4175baecc97f6fbd79e4 = L.popup({"maxWidth": 90});
 
         
-            var html_b0fb03b9fe054abd9ae1415b5185939b = $(`<div id="html_b0fb03b9fe054abd9ae1415b5185939b" style="width: 100.0%; height: 100.0%;">Edad: 16 Masculino  (Hospital de Chillán)</div>`)[0];
-            popup_13342408da594f7b9d96ca5d850d9753.setContent(html_b0fb03b9fe054abd9ae1415b5185939b);
+            var html_1f7833aebc664ae5b6570488d3405263 = $(`<div id="html_1f7833aebc664ae5b6570488d3405263" style="width: 100.0%; height: 100.0%;">Edad: 16 Masculino  (Hospital de Chillán)</div>`)[0];
+            popup_3281659b411c4175baecc97f6fbd79e4.setContent(html_1f7833aebc664ae5b6570488d3405263);
         
 
-        marker_f8f3b88e169641299bf7d94e740b5df0.bindPopup(popup_13342408da594f7b9d96ca5d850d9753)
+        marker_b1609327a1cb42aa9c0a9d2d5e90143c.bindPopup(popup_3281659b411c4175baecc97f6fbd79e4)
         ;
 
         
     
     
-            var marker_eb0353f850cb4433b25ebf787465eee2 = L.marker(
+            var marker_406ab6547aad4a27a2fa935c26946283 = L.marker(
                 [-36.2790465, -72.5544152],
                 {}
-            ).addTo(marker_cluster_21e8fe58789e40d2935dd934f9456622);
+            ).addTo(marker_cluster_869e3ea99adb47068e53042eb9948424);
         
     
-        var popup_14ebeb46479c40b69e8db565f328a0a2 = L.popup({"maxWidth": 90});
+            var icon_2e147f5f116f4126851785f6a09ba82b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_406ab6547aad4a27a2fa935c26946283.setIcon(icon_2e147f5f116f4126851785f6a09ba82b);
+        
+    
+        var popup_1a5a4bc5f61541a98767b464775ea756 = L.popup({"maxWidth": 90});
 
         
-            var html_f276c286c68347a1b6a6cc02a5ab9b99 = $(`<div id="html_f276c286c68347a1b6a6cc02a5ab9b99" style="width: 100.0%; height: 100.0%;">Edad: 23 Masculino  (Hospital de Chillán)</div>`)[0];
-            popup_14ebeb46479c40b69e8db565f328a0a2.setContent(html_f276c286c68347a1b6a6cc02a5ab9b99);
+            var html_1a2f0eccd4474b2d856f8d3159b78bd0 = $(`<div id="html_1a2f0eccd4474b2d856f8d3159b78bd0" style="width: 100.0%; height: 100.0%;">Edad: 23 Masculino  (Hospital de Chillán)</div>`)[0];
+            popup_1a5a4bc5f61541a98767b464775ea756.setContent(html_1a2f0eccd4474b2d856f8d3159b78bd0);
         
 
-        marker_eb0353f850cb4433b25ebf787465eee2.bindPopup(popup_14ebeb46479c40b69e8db565f328a0a2)
+        marker_406ab6547aad4a27a2fa935c26946283.bindPopup(popup_1a5a4bc5f61541a98767b464775ea756)
         ;
 
         
     
     
-            var marker_782992cc33694bd8ad97b4cfad09c344 = L.marker(
+            var marker_c13594bedd0a45febcd933853189e8d9 = L.marker(
                 [-36.2790465, -72.5544152],
                 {}
-            ).addTo(marker_cluster_21e8fe58789e40d2935dd934f9456622);
+            ).addTo(marker_cluster_869e3ea99adb47068e53042eb9948424);
         
     
-        var popup_eb0002393c094d0a9193acab30aeb3cf = L.popup({"maxWidth": 90});
+            var icon_ec3b29bb641a452784b3c75ae10695b7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c13594bedd0a45febcd933853189e8d9.setIcon(icon_ec3b29bb641a452784b3c75ae10695b7);
+        
+    
+        var popup_1a10ac0b2e5840da80936554a07cf6e1 = L.popup({"maxWidth": 90});
 
         
-            var html_0322ae2c00744e5da534cbbe52e6a3b2 = $(`<div id="html_0322ae2c00744e5da534cbbe52e6a3b2" style="width: 100.0%; height: 100.0%;">Edad: 23 Masculino  (Clínica de Chillán)</div>`)[0];
-            popup_eb0002393c094d0a9193acab30aeb3cf.setContent(html_0322ae2c00744e5da534cbbe52e6a3b2);
+            var html_6efd7bdf4aaa4cb0b5020209b3db8268 = $(`<div id="html_6efd7bdf4aaa4cb0b5020209b3db8268" style="width: 100.0%; height: 100.0%;">Edad: 23 Masculino  (Clínica de Chillán)</div>`)[0];
+            popup_1a10ac0b2e5840da80936554a07cf6e1.setContent(html_6efd7bdf4aaa4cb0b5020209b3db8268);
         
 
-        marker_782992cc33694bd8ad97b4cfad09c344.bindPopup(popup_eb0002393c094d0a9193acab30aeb3cf)
+        marker_c13594bedd0a45febcd933853189e8d9.bindPopup(popup_1a10ac0b2e5840da80936554a07cf6e1)
         ;
 
         
     
     
-            var marker_be608e3e46f1411f803f2108ac6b4fc3 = L.marker(
+            var marker_50e031ba7ae54614a91f44360375d0c0 = L.marker(
                 [-36.964842, -72.9283855],
                 {}
-            ).addTo(marker_cluster_21e8fe58789e40d2935dd934f9456622);
+            ).addTo(marker_cluster_869e3ea99adb47068e53042eb9948424);
         
     
-        var popup_4596404c8897475abe73fdaf357e1ee8 = L.popup({"maxWidth": 90});
+            var icon_120d8449aea44d1eaa743bbb4cd4dc4b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_50e031ba7ae54614a91f44360375d0c0.setIcon(icon_120d8449aea44d1eaa743bbb4cd4dc4b);
+        
+    
+        var popup_8b4a08075fb342bb822a584b36d92cee = L.popup({"maxWidth": 90});
 
         
-            var html_ef66a0f4ba3d488f845f18fb0cc259d9 = $(`<div id="html_ef66a0f4ba3d488f845f18fb0cc259d9" style="width: 100.0%; height: 100.0%;">Edad: 38 Masculino  (Hospital de Los Ángeles)</div>`)[0];
-            popup_4596404c8897475abe73fdaf357e1ee8.setContent(html_ef66a0f4ba3d488f845f18fb0cc259d9);
+            var html_5da1c0ddc5214a0ab685a10b57056e89 = $(`<div id="html_5da1c0ddc5214a0ab685a10b57056e89" style="width: 100.0%; height: 100.0%;">Edad: 38 Masculino  (Hospital de Los Ángeles)</div>`)[0];
+            popup_8b4a08075fb342bb822a584b36d92cee.setContent(html_5da1c0ddc5214a0ab685a10b57056e89);
         
 
-        marker_be608e3e46f1411f803f2108ac6b4fc3.bindPopup(popup_4596404c8897475abe73fdaf357e1ee8)
+        marker_50e031ba7ae54614a91f44360375d0c0.bindPopup(popup_8b4a08075fb342bb822a584b36d92cee)
         ;
 
         
     
     
-            var marker_cdb485f238604af19967e3e5e3c69b5d = L.marker(
+            var marker_80509473f7754df2bd77fe1f6675e34c = L.marker(
                 [-36.964842, -72.9283855],
                 {}
-            ).addTo(marker_cluster_21e8fe58789e40d2935dd934f9456622);
+            ).addTo(marker_cluster_869e3ea99adb47068e53042eb9948424);
         
     
-        var popup_c8c4dfa758f94e4fbe8f8dbb24068ccc = L.popup({"maxWidth": 90});
+            var icon_ccd635082b324030850696989deb1d0c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_80509473f7754df2bd77fe1f6675e34c.setIcon(icon_ccd635082b324030850696989deb1d0c);
+        
+    
+        var popup_a665833faa384515a17028389d9a6837 = L.popup({"maxWidth": 90});
 
         
-            var html_8bed97dce4d849fc867c685fdb9a9f3d = $(`<div id="html_8bed97dce4d849fc867c685fdb9a9f3d" style="width: 100.0%; height: 100.0%;">Edad: 34 Masculino  (Hospital G. Grant Benavente)</div>`)[0];
-            popup_c8c4dfa758f94e4fbe8f8dbb24068ccc.setContent(html_8bed97dce4d849fc867c685fdb9a9f3d);
+            var html_03fd532e0e504e5384138ef423319e0b = $(`<div id="html_03fd532e0e504e5384138ef423319e0b" style="width: 100.0%; height: 100.0%;">Edad: 34 Masculino  (Hospital G. Grant Benavente)</div>`)[0];
+            popup_a665833faa384515a17028389d9a6837.setContent(html_03fd532e0e504e5384138ef423319e0b);
         
 
-        marker_cdb485f238604af19967e3e5e3c69b5d.bindPopup(popup_c8c4dfa758f94e4fbe8f8dbb24068ccc)
+        marker_80509473f7754df2bd77fe1f6675e34c.bindPopup(popup_a665833faa384515a17028389d9a6837)
         ;
 
         
     
     
-            var marker_a4b64f1c6da7458ea3e138b8330ab9a0 = L.marker(
+            var marker_dbd7d395e24d4a249f5c4323861fda3f = L.marker(
                 [-36.964842, -72.9283855],
                 {}
-            ).addTo(marker_cluster_21e8fe58789e40d2935dd934f9456622);
+            ).addTo(marker_cluster_869e3ea99adb47068e53042eb9948424);
         
     
-        var popup_31f8c96f55fb4b4bac72c0f1f5f2a73e = L.popup({"maxWidth": 90});
+            var icon_07b613b5f2494f4c9a0dfcb77507d27e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_dbd7d395e24d4a249f5c4323861fda3f.setIcon(icon_07b613b5f2494f4c9a0dfcb77507d27e);
+        
+    
+        var popup_17f17d999d4d491fb71030c30679bdc2 = L.popup({"maxWidth": 90});
 
         
-            var html_d331581fc4b94f7d9174b314fd2dba6a = $(`<div id="html_d331581fc4b94f7d9174b314fd2dba6a" style="width: 100.0%; height: 100.0%;">Edad: 32 Masculino  (Clínica Universitaria)</div>`)[0];
-            popup_31f8c96f55fb4b4bac72c0f1f5f2a73e.setContent(html_d331581fc4b94f7d9174b314fd2dba6a);
+            var html_d786fe61b436458e8f97e598009cc6de = $(`<div id="html_d786fe61b436458e8f97e598009cc6de" style="width: 100.0%; height: 100.0%;">Edad: 32 Masculino  (Clínica Universitaria)</div>`)[0];
+            popup_17f17d999d4d491fb71030c30679bdc2.setContent(html_d786fe61b436458e8f97e598009cc6de);
         
 
-        marker_a4b64f1c6da7458ea3e138b8330ab9a0.bindPopup(popup_31f8c96f55fb4b4bac72c0f1f5f2a73e)
+        marker_dbd7d395e24d4a249f5c4323861fda3f.bindPopup(popup_17f17d999d4d491fb71030c30679bdc2)
         ;
 
         
     
     
-            var marker_5646dc4c25eb403baf93902903b9cfa6 = L.marker(
+            var marker_6aa8ac1aa3d4448b8d6c8c37027de772 = L.marker(
                 [-42.89802435, -72.43889081356666],
                 {}
-            ).addTo(marker_cluster_21e8fe58789e40d2935dd934f9456622);
+            ).addTo(marker_cluster_869e3ea99adb47068e53042eb9948424);
         
     
-        var popup_d918e3048d38438a8edfe553cfbe755c = L.popup({"maxWidth": 90});
+            var icon_3c658e09920f4a1a860e7770298665cd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6aa8ac1aa3d4448b8d6c8c37027de772.setIcon(icon_3c658e09920f4a1a860e7770298665cd);
+        
+    
+        var popup_3c940f87f2ab4f37a9375e7502ea2040 = L.popup({"maxWidth": 90});
 
         
-            var html_e956d8a904e647168b0623f133e0ff21 = $(`<div id="html_e956d8a904e647168b0623f133e0ff21" style="width: 100.0%; height: 100.0%;">Edad: 20 Femenino  (Hospital de Puerto Montt)</div>`)[0];
-            popup_d918e3048d38438a8edfe553cfbe755c.setContent(html_e956d8a904e647168b0623f133e0ff21);
+            var html_11efa4641350416ca5bc8360d4b25e15 = $(`<div id="html_11efa4641350416ca5bc8360d4b25e15" style="width: 100.0%; height: 100.0%;">Edad: 20 Femenino  (Hospital de Puerto Montt)</div>`)[0];
+            popup_3c940f87f2ab4f37a9375e7502ea2040.setContent(html_11efa4641350416ca5bc8360d4b25e15);
         
 
-        marker_5646dc4c25eb403baf93902903b9cfa6.bindPopup(popup_d918e3048d38438a8edfe553cfbe755c)
+        marker_6aa8ac1aa3d4448b8d6c8c37027de772.bindPopup(popup_3c940f87f2ab4f37a9375e7502ea2040)
         ;
 
         
     
     
-            var marker_e4cf2ad851ad4915b911980a21782b8e = L.marker(
+            var marker_6ba7b5b6b91645acaad503196b9caad4 = L.marker(
                 [-46.4590242, -72.6717865],
                 {}
-            ).addTo(marker_cluster_21e8fe58789e40d2935dd934f9456622);
+            ).addTo(marker_cluster_869e3ea99adb47068e53042eb9948424);
         
     
-        var popup_f786882dbaca42e7a3ecc49c5326c7f4 = L.popup({"maxWidth": 90});
+            var icon_5959ae29400a4112b61d06cdfc480680 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6ba7b5b6b91645acaad503196b9caad4.setIcon(icon_5959ae29400a4112b61d06cdfc480680);
+        
+    
+        var popup_64692aec0d5143d3b56d807a9c1f798d = L.popup({"maxWidth": 90});
 
         
-            var html_3d052a532acc40ddb68016e0d1a911ed = $(`<div id="html_3d052a532acc40ddb68016e0d1a911ed" style="width: 100.0%; height: 100.0%;">Edad: 83 Masculino  (Hospital de Aysén)</div>`)[0];
-            popup_f786882dbaca42e7a3ecc49c5326c7f4.setContent(html_3d052a532acc40ddb68016e0d1a911ed);
+            var html_21c8cf4b41f7412587d83043d3db8136 = $(`<div id="html_21c8cf4b41f7412587d83043d3db8136" style="width: 100.0%; height: 100.0%;">Edad: 83 Masculino  (Hospital de Aysén)</div>`)[0];
+            popup_64692aec0d5143d3b56d807a9c1f798d.setContent(html_21c8cf4b41f7412587d83043d3db8136);
         
 
-        marker_e4cf2ad851ad4915b911980a21782b8e.bindPopup(popup_f786882dbaca42e7a3ecc49c5326c7f4)
+        marker_6ba7b5b6b91645acaad503196b9caad4.bindPopup(popup_64692aec0d5143d3b56d807a9c1f798d)
         ;
 
         
